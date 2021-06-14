@@ -4,8 +4,11 @@
 # HOOKS
 #
 
+// add theme sutup
 add_action( 'after_setup_theme', 'slick_setup' );
 
+// enqueue scripts and styles
+add_action( 'wp_enqueue_scripts', 'slick_enqueue' );  
 
 
 #
@@ -34,5 +37,14 @@ function slick_setup() {
 }
 
 
+
+// Enqueue scripts and styles
+function slick_enqueue() {
+
+    wp_register_style( 'quick', 'https://cdn.jsdelivr.net/gh/GuglielmoPepe/quick@2.0.0/src/quick.min.css', array(), '2.0.0' );
+    wp_enqueue_style('quick');
+
+    wp_enqueue_style( 'slick', get_template_directory_uri() . '/style.css', array(), wp_get_theme()->get( 'Version' ) );
+}
 
 
