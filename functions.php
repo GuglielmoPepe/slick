@@ -11,6 +11,7 @@ add_action( 'after_setup_theme', 'slick_setup' );
 add_action( 'wp_enqueue_scripts', 'slick_enqueue' );  
 
 
+
 #
 # FUNCTIONS
 #
@@ -48,5 +49,4 @@ function slick_enqueue() {
     // Add style.css
     wp_enqueue_style( 'slick', get_template_directory_uri() . '/style.css', array(), wp_get_theme()->get( 'Version' ) );
 }
-
 
