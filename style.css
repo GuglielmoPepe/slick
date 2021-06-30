@@ -15,34 +15,51 @@ Text Domain: slick
 */
 
 body {
-    margin:0;
+    margin: 0;
 }
 
+a {
+    color: var(--wp--preset--color--peter-river);
+}
+
+a:hover {
+    color: var(--wp--preset--color--belize-hole);
+}
+
+
 .wp-block-site-title {
-    margin:0;
+    margin: 0;
+}
+
+.wp-block-site-title a {
+    text-decoration: none;
 }
 
 .wp-block-archives-list, 
 .wp-block-categories-list {
     list-style: none;
-    padding:0;
+    padding: 0;
 }
 
 .wp-site-blocks > aside {
-    background-color:#7f8c8d;
-    color:#fff;
-    margin:0 auto;
-    padding:1.5em;
+    background-color: #7f8c8d;
+    color: #fff;
+    margin: 0 auto;
+    padding: 1.5em;
 }
 
 .wp-site-blocks > footer, 
 .wp-site-blocks > header {
-    background-color:#34495e;
-    color:#fff;
-    margin:0 auto;
-    padding:1.5em;
-    text-align:center;
+    background-color: #34495e;
+    color: #fff;
+    margin: 0 auto;
+    padding: 1.5em;
+    text-align: center;
 }
 
-
+.wp-site-blocks > aside a, 
+.wp-site-blocks > footer a, 
+.wp-site-blocks > header a {
+    color: #fff;
+}
 
