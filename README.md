@@ -7,7 +7,7 @@ Slick is an experimental simple, lovable and complete starter theme. It is built
 
 This theme requires Gutenberg version 10.9.1 or newer.
 
-This theme is beta software, and is not meant for use on a production site. Bug reports, fixes, and other and contributions are welcome <a href="https://github.com/GuglielmoPepe/slick">in the theme's GitHub repository</a>.
+This theme is beta software, and is not meant for use on a production site. Bug reports, fixes, and other and contributions are welcome <a href="https://github.com/GuglielmoPepe/slick/issues">in the theme's GitHub repository</a>.
 
 
 ## Installation
