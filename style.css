@@ -4,7 +4,7 @@ Theme URI: https://www.slicktheme.it
 Author: Guglielmo Pepe
 Author URI: https://www.guglielmopepe.com
 Description: An experimental simple, lovable and complete starter theme
-Tags: full-site-editing, blog
+Tags: full-site-editing, blog, one-column
 Requires at least: 5.7.2
 Tested up to: 5.7.2
 Requires PHP: 7.2
@@ -15,80 +15,34 @@ Text Domain: slick
 */
 
 body {
-    max-width:100%;
-    width:100%;
+    margin:0;
 }
 
-.wp-site-blocks {
-    display: grid;
-    grid-gap: 1em;
-    grid-template-areas: 
-        "header"
-        "nav"
-        "main"
-        "aside"
-        "footer";
+.wp-block-site-title {
+    margin:0;
+}
+
+.wp-block-archives-list, 
+.wp-block-categories-list {
+    list-style: none;
+    padding:0;
 }
 
 .wp-site-blocks > aside {
-    background-color:#f39c12;
-    color:#FFFFFF;
-    font-weight:900;
-    padding:20px;
-    /*text-align:center;*/
-
-    grid-area: aside;
+    background-color:#7f8c8d;
+    color:#fff;
+    margin:0 auto;
+    padding:1.5em;
 }
 
-.wp-site-blocks > footer {
-    background-color:#1abc9c;
-    color:#FFFFFF;
-    font-weight:900;
-    padding:20px;
-    /*text-align:center;*/
-
-    grid-area: footer;
-}
-
+.wp-site-blocks > footer, 
 .wp-site-blocks > header {
-    background-color:#16a085;
-    color:#FFFFFF;
-    font-weight:900;
-    padding:20px;
-    /*text-align:center;*/
-
-    grid-area: header;
-}
-
-.wp-site-blocks > main {
-    background-color:#3498db;
-    color:#FFFFFF;
-    font-weight:900;
-    padding:20px;
-    /*text-align:center;*/
-
-    grid-area: main;
-}
-
-.wp-site-blocks > nav {
-    background-color:#2c3e50;
-    color:#FFFFFF;
-    font-weight:900;
-    padding:20px;
-    /*text-align:center;*/
-
-    grid-area: nav;
+    background-color:#34495e;
+    color:#fff;
+    margin:0 auto;
+    padding:1.5em;
+    text-align:center;
 }
 
 
-@media (min-width: 500px) {
-    .wp-site-blocks {
-        grid-template-columns: 5fr 3fr;
-        grid-template-areas:
-        "header header"
-        "nav nav"
-        "main aside"
-        "footer footer";
-    }
-}
 

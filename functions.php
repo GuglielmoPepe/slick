@@ -43,11 +43,7 @@ function slick_setup() {
 // Enqueue scripts and styles
 function slick_enqueue() {
 
-    // Add quick.css 
-    wp_register_style( 'quick', 'https://cdn.jsdelivr.net/gh/GuglielmoPepe/quick@2.0.0/src/quick.min.css', array(), '2.0.0' );
-    // wp_enqueue_style('quick');
-
     // Add style.css
-    // wp_enqueue_style( 'slick', get_template_directory_uri() . '/style.css', array(), wp_get_theme()->get( 'Version' ) );
+    wp_enqueue_style( 'slick', get_template_directory_uri() . '/style.css', array(), wp_get_theme()->get( 'Version' ) );
 }
 
