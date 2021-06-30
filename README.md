@@ -29,12 +29,12 @@ This theme is beta software, and is not meant for use on a production site. Bug 
 
 ## Frequently Asked Questions
 
-= Why do I need this? =
+### Why do I need this?
 Full-site editing is the future of WordPress: test the new features.
 
-= Can I request new template? =
+### Can I request new template?
 Of course! I love to get your ideas! Please, [submit your idea](https://wordpress.org/support/theme/slick/) here.
 
-= Can I request new patial template? =
+### Can I request new patial template?
 Absolutely! Please, [submit your idea](https://wordpress.org/support/theme/slick/) here.
 
