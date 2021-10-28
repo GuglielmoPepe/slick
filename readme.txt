@@ -52,6 +52,8 @@ Absolutely! Please, [submit your idea](https://github.com/GuglielmoPepe/slick/is
 == Changelog ==
 
 = 1.0.1 =
+* Remove empty blocks styles from theme.json
+* Remove gradient color in theme.json
 * Remove div with wp-block-query-pagination
 * Change wp-query-loop with post-template
 
