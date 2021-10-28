@@ -51,6 +51,10 @@ Absolutely! Please, [submit your idea](https://github.com/GuglielmoPepe/slick/is
 
 == Changelog ==
 
+= 1.0.1 =
+* Remove div with wp-block-query-pagination
+* Change wp-query-loop with post-template
+
 = 1.0.0 =
 * First release
 
