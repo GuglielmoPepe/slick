@@ -51,6 +51,11 @@ Absolutely! Please, [submit your idea](https://github.com/GuglielmoPepe/slick/is
 
 == Changelog ==
 
+= Unreleased =
+
+* Change theme.json
+* Change block-template-parts/header.html
+
 = 1.0.1 =
 * Change nav tag with div tag in aside.html
 * Change h3 with h2 in aside.html
