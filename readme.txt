@@ -55,6 +55,7 @@ Absolutely! Please, [submit your idea](https://github.com/GuglielmoPepe/slick/is
 
 * Change theme.json
 * Change block-template-parts/header.html
+* Remove "add_theme_support( 'post-thumbnails' )"
 
 = 1.0.1 =
 * Change nav tag with div tag in aside.html
