@@ -57,6 +57,11 @@ a:hover {
     text-align: center;
 }
 
+.wp-site-blocks > main {
+    margin: 0 auto;
+    padding: 1.5em;
+}
+
 .wp-site-blocks > aside a, 
 .wp-site-blocks > footer a, 
 .wp-site-blocks > header a {

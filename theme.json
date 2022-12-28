@@ -207,12 +207,12 @@
         {
             "area": "header",
             "name": "header",
-            "title": "Header"
+            "title": "header"
         },
         {
             "area": "footer",
             "name": "footer",
-            "title": "Footer"
+            "title": "footer"
         }
     ],
 	"version": 1

@@ -19,14 +19,11 @@ add_action( 'wp_enqueue_scripts', 'slick_enqueue' );
 // Sets up theme defaults and registers support for various WordPress features
 function slick_setup() {
 
-    // Add support for core block visual styles.
-    add_theme_support( 'wp-block-styles' );
-
-    // Enqueue editor styles.
+    // Add editor styles.
     add_editor_style( 'style.css' );
 
-    // Add support for custom units.
-    add_theme_support( 'custom-units' );
+    // Add support for block styles.
+    add_theme_support( 'wp-block-styles' );
 }
 
 

@@ -53,9 +53,14 @@ Absolutely! Please, [submit your idea](https://github.com/GuglielmoPepe/slick/is
 
 = Unreleased =
 
+* Add pattern directory
+* Add styles directory
 * Change theme.json
 * Change block-template-parts/header.html
-* Remove "add_theme_support( 'post-thumbnails' )"
+* Change directory names
+* Fix typo in theme.json
+* Fix padding of "main" tag
+* Remove theme supports enabled automatically in block themes
 
 = 1.0.1 =
 * Change nav tag with div tag in aside.html
