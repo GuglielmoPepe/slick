@@ -1,17 +1,23 @@
 <!-- wp:template-part {"layout":{"inherit":true}, "slug":"header", "tagName":"header"} /-->
 
-<!-- wp:group {"layout":{"inherit":true}, "tagName":"main"} -->
-<main class="wp-block-group">
+<!-- wp:group {"tagName":"main","style":{"spacing":{"blockGap":"var:preset|spacing|l","padding":{"top":"var:preset|spacing|xxl","bottom":"var:preset|spacing|xxl","left":"var:preset|spacing|l","right":"var:preset|spacing|l"},"margin":{"top":"var:preset|spacing|none","bottom":"var:preset|spacing|none"}}},"layout":{"inherit":true,"type":"constrained"}} -->
+<main class="wp-block-group" style="margin-top:var(--wp--preset--spacing--none);margin-bottom:var(--wp--preset--spacing--none);padding-top:var(--wp--preset--spacing--xxl);padding-right:var(--wp--preset--spacing--l);padding-bottom:var(--wp--preset--spacing--xxl);padding-left:var(--wp--preset--spacing--l)">
 
-    <!-- wp:heading {"fontSize":"large", "level":1} -->
-    <h1 class="has-large-font-size">Oops! That page can’t be found.</h1>
-    <!-- /wp:heading -->
+    <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|xl","padding":{"top":"0","bottom":"0","left":"var:preset|spacing|none","right":"var:preset|spacing|none"},"margin":{"top":"var:preset|spacing|none","bottom":"var:preset|spacing|none"}}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"left"}} -->
+    <div class="wp-block-group" style="margin-top:var(--wp--preset--spacing--none);margin-bottom:var(--wp--preset--spacing--none);padding-top:0;padding-right:var(--wp--preset--spacing--none);padding-bottom:0;padding-left:var(--wp--preset--spacing--none)">
 
-    <!-- wp:paragraph -->
-    <p>It looks like nothing was found at this location. Maybe try a search?</p>
-    <!-- /wp:paragraph -->
+        <!-- wp:heading {"level":2,"fontSize":"large"} -->
+        <h2 class="wp-block-heading has-large-font-size">Oops! That page can’t be found.</h2>
+        <!-- /wp:heading -->
 
-    <!-- wp:search {"buttonText":"Search", "label":""} /-->
+        <!-- wp:paragraph -->
+        <p>It looks like nothing was found at this location. Maybe try a search?</p>
+        <!-- /wp:paragraph -->
+
+        <!-- wp:search {"label":"","showLabel":false,"width":100,"widthUnit":"%","buttonText":"Search"} /-->
+
+    </div>
+    <!-- /wp:group -->
 
 </main>
 <!-- /wp:group -->
