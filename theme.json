@@ -1,209 +1,266 @@
 {
-	"settings": {
-		"border": {
-			"customColor": false,
-			"customRadius": false,
-			"customStyle": false,
-			"customWidth": false
-		},
+    "$schema": "https://schemas.wp.org/trunk/theme.json",
+    "customTemplates": {},
+    "settings": {
+    "appearanceTools": true,
+        "border": {
+            "color": true,
+            "radius": true,
+            "style": true,
+            "width": true
+        },
+        "color": {
+            "custom": true,
+            "customDuotone": true,
+            "customGradient": true,
+            "duotone": [],
+            "gradients": [],
+            "link": true,
+            "palette": [
+                {
+                    "color": "#fcfcfc",
+                    "name":"Base low",
+                    "slug": "base-lighter"
+                },
+                {
+                    "color": "#757575",
+                    "name":"Base",
+                    "slug": "base"
+                },
+                {
+                    "color": "#1b1b1b",
+                    "name":"Base darker",
+                    "slug": "base-darker"
+                },
+                {
+                    "color": "#eff6fb",
+                    "name":"Primary lighter",
+                    "slug": "primary-lighter"
+                },
+                {
+                    "color": "#2378c3",
+                    "name":"Primary",
+                    "slug": "primary"
+                },
+                {
+                    "color": "#11181d",
+                    "name":"Primary darker",
+                    "slug": "primary-darker"
+                },
+                {
+                    "color": "#ccecf2",
+                    "name":"Secundary lighter",
+                    "slug": "secundary-lighter"
+                },
+                {
+                    "color": "#168092",
+                    "name":"Secundary",
+                    "slug": "secundary"
+                },
+                {
+                    "color": "#111819",
+                    "name":"Secundary darker",
+                    "slug": "secundary-darker"
+                },
+                {
+                    "color": "#f5e6af",
+                    "name":"Accent lighter",
+                    "slug": "accent-lighter"
+                },
+                {
+                    "color": "#8a7237",
+                    "name":"Accent",
+                    "slug": "accent"
+                },
+                {
+                    "color": "#1a1614",
+                    "name":"Accent darker",
+                    "slug": "accent-darker"
+                }
+            ],
+            "text": true,
+            "background": true,
+            "defaultGradients": true,
+            "defaultPalette": true
+        },
+        "custom": {},
+        "layout": {
+            "contentSize": "1000px",
+            "wideSize": "1200px"
+        },
+        "spacing": {
+            "blockGap": true,
+            "margin": true,
+            "padding": true,
+            "spacingSizes": [
+                {
+                    "slug": "none",
+                    "size": "0",
+                    "name": "none"
+                },
+                {
+                    "slug": "xxs",
+                    "size": "1px",
+                    "name": "xxs"
+                },
+                {
+                    "slug": "xs",
+                    "size": "2px",
+                    "name": "xs"
+                },
+                {
+                    "slug": "s",
+                    "size": "4px",
+                    "name": "s"
+                },
+                {
+                    "slug": "m",
+                    "size": "8px",
+                    "name": "m"
+                },
+                {
+                    "slug": "l",
+                    "size": "16px",
+                    "name": "l"
+                },
+                {
+                    "slug": "xl",
+                    "size": "32px",
+                    "name": "xl"
+                },
+                {
+                    "slug": "xxl",
+                    "size": "64px",
+                    "name": "xxl"
+                },
+                {
+                    "slug": "xxxl",
+                    "size": "128px",
+                    "name": "xxxl"
+                }
+            ],
+            "units": [ "%", "px", "em", "rem", "vh", "vw" ]
+        },
+        "typography": {
+            "customFontSize": true,
+            "dropCap": true,
+            "fluid": false,
+            "fontFamilies": [
+                {
+					"fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif",
+					"name": "Monospace",
+					"slug": "monospace"
+                },
+                {
+					"fontFamily": "-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif",
+					"name": "Sans-serif",
+					"slug": "sans-serif"
+                },
+                {
+					"fontFamily": "Iowan Old Style, Apple Garamond, Baskerville, Times New Roman, Droid Serif, Times, Source Serif Pro, serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol",
+					"name": "Serif",
+					"slug": "serif"
+                }
+            ],
+            "fontSizes": [
+                {
+                    "slug": "tiny",
+                    "size": "12px",
+                    "name": "tiny"
+                },
+                {
+                    "slug": "small",
+                    "size": "16px",
+                    "name": "small"
+                },
+                {
+                    "slug": "regular",
+                    "size": "20px",
+                    "name": "regular"
+                },
+                {
+                    "slug": "medium",
+                    "size": "24px",
+                    "name": "medium"
+                },
+                {
+                    "slug": "large",
+                    "size": "28px",
+                    "name": "large"
+                },
+                {
+                    "slug": "huge",
+                    "size": "32px",
+                    "name": "huge"
+                }
+            ],
+            "fontStyle": true,
+            "fontWeight": true,
+            "lineHeight": false,
+            "letterSpacing": true,
+            "textDecoration": true,
+            "textTransform": true,
+            "useRootPaddingAwareAlignments": true
+        }
+    },
+    "styles": {
+        "blocks": {},
 		"color": {
-			"link": true,
-			"palette": [
-				{
-					"slug": "turquoise",
-					"color": "#1abc9c",
-					"name": "Turquoise"
-				},
-				{
-					"slug": "green-sea",
-					"color": "#16a085",
-					"name": "Green Sea"
-				},
-				{
-					"slug": "sun-flower",
-					"color": "#f1c40f",
-					"name": "Sun Flower"
-				},
-				{
-					"slug": "orange",
-					"color": "#f39c12",
-					"name": "Orange"
-				},
-				{
-					"slug": "emerald",
-					"color": "#2ecc71",
-					"name": "Emerald"
-				},
-				{
-					"slug": "nephritis",
-					"color": "#27ae60",
-					"name": "Nephritis"
-				},
-				{
-					"slug": "carrot",
-					"color": "#e67e22",
-					"name": "Carrot"
-				},
-				{
-					"slug": "pumpkin",
-					"color": "#d35400",
-					"name": "Pumpkin"
-				},
-				{
-					"slug": "peter-river",
-					"color": "#3498db",
-					"name": "Peter River"
-				},
-				{
-					"slug": "belize-hole",
-					"color": "#2980b9",
-					"name": "Belize Hole"
-				},
-				{
-					"slug": "alizarin",
-					"color": "#e74c3c",
-					"name": "Alizarin"
-				},
-				{
-					"slug": "pomegranate",
-					"color": "#c0392b",
-					"name": "Pomegranate"
-				},
-				{
-					"slug": "amethyst",
-					"color": "#9b59b6",
-					"name": "Amethyst"
-				},
-				{
-					"slug": "wisteria",
-					"color": "#8e44ad",
-					"name": "Wisteria"
-				},
-				{
-					"slug": "clouds",
-					"color": "#ecf0f1",
-					"name": "Clouds"
-				},
-				{
-					"slug": "silver",
-					"color": "#bdc3c7",
-					"name": "Silver"
-				},
-				{
-					"slug": "wet-asphalt",
-					"color": "#34495e",
-					"name": "Wet Asphalt"
-				},
-				{
-					"slug": "midnight-blue",
-					"color": "#2c3e50",
-					"name": "Midnight Blue"
-				},
-				{
-					"slug": "concrete",
-					"color": "#95a5a6",
-					"name": "Concrete"
-				},
-				{
-					"slug": "asbestos",
-					"color": "#7f8c8d",
-					"name": "Asbestos"
-				}
-			]
+			"background": "var(--wp--preset--color--base-lighter)",
+			"text": "var(--wp--preset--color--base-darker)"
 		},
-		"custom": {},
-		"layout": {
-			"contentSize": "840px",
-			"wideSize": "1100px"
-		},
-		"spacing": {
-			"customMargin": false,
-			"customPadding": false,
-			"units": [ "px", "em", "rem", "vh", "vw" ]
-		},
-		"typography": {
-			"customFontSize": true,
-			"customFontStyle": true,
-			"customFontWeight": true,
-			"customLineHeight": true,
-			"customTextDecorations": true,
-			"customTextTransforms": true,
-			"dropCap": true,
-			"fontFamilies": [],
-			"fontSizes": [
-				{
-					"slug": "tiny",
-					"size": "12px",
-					"name": "Tiny"
-				},
-				{
-					"slug": "small",
-					"size": "16px",
-					"name": "Small"
-				},
-				{
-					"slug": "regular",
-					"size": "20px",
-					"name": "Regular"
-				},
-				{
-					"slug": "medium",
-					"size": "24px",
-					"name": "Medium"
-				},
-				{
-					"slug": "large",
-					"size": "28px",
-					"name": "Large"
-				},
-				{
-					"slug": "huge",
-					"size": "32px",
-					"name": "Huge"
-				}
-			]
-		}
-	},
-	"styles": {
-		"elements": {
-			"h1": {
-				"typography": {
-					"fontSize": "var(--wp--preset--font-size--huge)"
-				}
-			},
-			"h2": {
-				"typography": {
-					"fontSize": "var(--wp--preset--font-size--large)"
-				}
-			},
-			"h3": {
-				"typography": {
-					"fontSize": "var(--wp--preset--font-size--medium)"
-				}
-			},
-			"h4": {
-				"typography": {
-					"fontSize": "var(--wp--preset--font-size--regular)"
-				}
-			},
-			"h5": {
-				"typography": {
-					"fontSize": "var(--wp--preset--font-size--small)"
-				}
-			},
-			"h6": {
-				"typography": {
-					"fontSize": "var(--wp--preset--font-size--tiny)"
-				}
-			}
-		},
-		"typography": {
-			"lineHeight": 1.6,
-			"fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif",
-			"fontSize": "var(--wp--preset--font-size--small)"
-		}
-	},
-	"templateParts": [
+        "elements": {
+            "h1": {
+                "typography": {
+                    "fontSize": "var(--wp--preset--font-size--huge)"
+                }
+            },
+            "h2": {
+                "typography": {
+                    "fontSize": "var(--wp--preset--font-size--large)"
+                }
+            },
+            "h3": {
+                "typography": {
+                    "fontSize": "var(--wp--preset--font-size--medium)"
+                }
+            },
+            "h4": {
+                "typography": {
+                    "fontSize": "var(--wp--preset--font-size--regular)"
+                }
+            },
+            "h5": {
+                "typography": {
+                    "fontSize": "var(--wp--preset--font-size--small)"
+                }
+            },
+            "h6": {
+                "typography": {
+                    "fontSize": "var(--wp--preset--font-size--tiny)"
+                }
+            },
+            "link": {
+                ":hover": {
+                    "typography": {
+                        "textDecoration": "none"
+                    }
+                },
+                "color": {
+                    "text": "var(--wp--preset--color--accent)"
+                }
+            }
+        },
+        "spacing": {
+            "blockGap": "var(--wp--preset--spacing--none)"
+        },
+        "typography": {
+            "lineHeight": 1.5,
+			"fontFamily": "var(--wp--preset--font-family--sans-serif)",
+            "fontSize": "var(--wp--preset--font-size--small)"
+        }
+    },
+    "templateParts": [
         {
             "area": "header",
             "name": "header",
@@ -215,5 +272,5 @@
             "title": "footer"
         }
     ],
-	"version": 1
+    "version": 2
 }
