@@ -1,30 +1,26 @@
-Slick is an experimental simple, lovable and complete starter theme. It is built to leverage the full site editing functionality that is being built in the Gutenberg plugin. This theme is not meant for use on a production site.
-
+Slick is an experimental simple, lovable and complete starter theme.
 
 ## Description
 
-Slick is an experimental simple, lovable and complete starter theme. It is built to leverage the full site editing functionality that is being built in the <a href="https://wordpress.org/plugins/gutenberg/">Gutenberg plugin</a>.
-
-This theme requires Gutenberg version 10.9.1 or newer.
-
-This theme is beta software, and is not meant for use on a production site. Bug reports, fixes, and other and contributions are welcome <a href="https://github.com/GuglielmoPepe/slick/issues">in the theme's GitHub repository</a>.
+Slick is a simple, lovable and complete starter theme. It is built to leverage the full site editing functionality and developed for flexibility. Slick comes with two only pattern and full page designs to help speed up the site building process, is fully compatible with the site editor, and takes advantage of new design tools introduced in WordPress 6.4.
 
 
 ## Installation
 
-1. If you do not already have <a href="https://wordpress.org/plugins/gutenberg/">the Gutenberg plugin</a> installed and activated, go to Appearance -> Themes in your admin panel and search for 'Gutenberg'. Install and activate the plugin.
-2. Then, in your admin panel, go to Appearance -> Themes and click the 'Add New' button.
-3. Type in 'Slick' in the search form and press the 'Enter' key on your keyboard.
-4. Click on the 'Activate' button to use your new theme right away.
-5. From your admin panel, visit the Site Editor to customize your site.
+1. Then, in your admin panel, go to Appearance -> Themes and click the 'Add New' button.
+2. Type in 'Slick' in the search form and press the 'Enter' key on your keyboard.
+3. Click on the 'Activate' button to use your new theme right away.
+4. From your admin panel, visit the Site Editor to customize your site.
 
 
 ## Roadmap
 
-* Add classic templates of WordPress
+* Add amazing color palette
+* Add font families
+* Add theme variations
+* Add image placeholders
 * Add other templates
-* Add other partials
-* Add consistently rules of CSS
+* Add other patterns
 
 
 ## Frequently Asked Questions
