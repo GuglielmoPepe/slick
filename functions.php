@@ -4,7 +4,7 @@
 # HOOKS
 #
 
-// add theme sutup
+// add theme setup
 add_action( 'after_setup_theme', 'slick_setup' );
 
 // enqueue scripts and styles
