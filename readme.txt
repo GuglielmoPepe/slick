@@ -24,9 +24,7 @@ Slick is a simple, lovable and complete starter theme. It is built to leverage t
 == Roadmap ==
 
 * Add amazing color palette
-* Add font families
 * Add theme variations
-* Add image placeholders
 * Add other templates
 * Add other patterns
 
@@ -44,6 +42,11 @@ Absolutely! Please, [submit your idea](https://github.com/GuglielmoPepe/slick/is
 
 
 == Changelog ==
+
+= Unreleased =
+* Add image placeholders
+* Add font families
+
 
 = 1.2.0 =
 
