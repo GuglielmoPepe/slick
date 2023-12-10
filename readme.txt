@@ -47,6 +47,13 @@ Absolutely! Please, [submit your idea](https://github.com/GuglielmoPepe/slick/is
 * Add image placeholders
 * Add font families
 
+= Unreleased =
+
+* Add archive template
+* Add front-page template
+* Add home template
+* Add search template
+
 
 = 1.2.0 =
 
