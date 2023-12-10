@@ -43,16 +43,17 @@ Absolutely! Please, [submit your idea](https://github.com/GuglielmoPepe/slick/is
 
 == Changelog ==
 
+
 = Unreleased =
+
 * Add image placeholders
 * Add font families
-
-= Unreleased =
-
-* Add archive template
 * Add front-page template
-* Add home template
-* Add search template
+
+
+= 1.2.1 =
+
+* Change tag for the main content: from div to main tag 
 
 
 = 1.2.0 =
