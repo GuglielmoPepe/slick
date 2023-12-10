@@ -45,6 +45,11 @@ Absolutely! Please, [submit your idea](https://github.com/GuglielmoPepe/slick/is
 
 == Changelog ==
 
+= 1.2.1 =
+
+* Change tag for the main content: from div to main tag 
+
+
 = 1.2.0 =
 
 * Add container pattern
