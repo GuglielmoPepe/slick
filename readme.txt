@@ -46,8 +46,9 @@ Absolutely! Please, [submit your idea](https://github.com/GuglielmoPepe/slick/is
 
 = Unreleased =
 
-* Add image placeholders
+* Add scaffold for child theme
 * Add font families
+* Add image placeholders
 * Add front-page template
 
 
