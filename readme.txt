@@ -46,10 +46,11 @@ Absolutely! Please, [submit your idea](https://github.com/GuglielmoPepe/slick/is
 
 = Unreleased =
 
-* Add scaffold for child theme
-* Add font families
-* Add image placeholders
-* Add front-page template
+* Change "sticky" option in front-page.html template at line 12: set this option include
+* Fix tag div in front-page.html at line 4: change to main tag
+* Fix tag div in single.html at line 4: change to main tag
+* Remove "queryId" in front-page.html template at line 108
+* Remove "queryId" in index.html template at line 21
 
 
 = 1.2.1 =
