@@ -11,7 +11,6 @@ add_action( 'after_setup_theme', 'slick_setup' );
 add_action( 'wp_enqueue_scripts', 'slick_enqueue' );  
 
 
-
 #
 # FUNCTIONS
 #

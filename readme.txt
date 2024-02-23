@@ -4,7 +4,7 @@ Tags: full-site-editing, blog
 Requires at least: 6.4
 Tested up to: 6.4
 Requires PHP: 7.0
-Stable tag: 1.2.0
+Stable tag: 1.2.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -24,9 +24,7 @@ Slick is a simple, lovable and complete starter theme. It is built to leverage t
 == Roadmap ==
 
 * Add amazing color palette
-* Add font families
 * Add theme variations
-* Add image placeholders
 * Add other templates
 * Add other patterns
 
@@ -44,6 +42,22 @@ Absolutely! Please, [submit your idea](https://github.com/GuglielmoPepe/slick/is
 
 
 == Changelog ==
+
+
+= Unreleased =
+
+
+= 1.2.2 =
+
+* Add image placeholders 
+* Change "sticky" option in front-page.html template 
+* Change line-height option in theme.json 
+* Change spaces with tabs in theme.json 
+* Fix tag div in front-page.html at line 4: change to main tag
+* Fix tag div in single.html at line 4: change to main tag
+* Remove "queryId" in front-page.html template at line 108
+* Remove "queryId" in index.html template at line 21
+
 
 = 1.2.1 =
 
