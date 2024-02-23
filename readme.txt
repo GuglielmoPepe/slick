@@ -46,7 +46,7 @@ Absolutely! Please, [submit your idea](https://github.com/GuglielmoPepe/slick/is
 
 = Unreleased =
 
-* Change "sticky" option in front-page.html template at line 12: set this option include
+
 * Fix tag div in front-page.html at line 4: change to main tag
 * Fix tag div in single.html at line 4: change to main tag
 * Remove "queryId" in front-page.html template at line 108
