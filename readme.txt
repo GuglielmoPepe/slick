@@ -4,7 +4,7 @@ Tags: full-site-editing, blog
 Requires at least: 6.4
 Tested up to: 6.4
 Requires PHP: 7.0
-Stable tag: 1.2.0
+Stable tag: 1.2.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -47,6 +47,12 @@ Absolutely! Please, [submit your idea](https://github.com/GuglielmoPepe/slick/is
 = Unreleased =
 
 
+= 1.2.2 =
+
+* Add image placeholders 
+* Change "sticky" option in front-page.html template 
+* Change line-height option in theme.json 
+* Change spaces with tabs in theme.json 
 * Fix tag div in front-page.html at line 4: change to main tag
 * Fix tag div in single.html at line 4: change to main tag
 * Remove "queryId" in front-page.html template at line 108
