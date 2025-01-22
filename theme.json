@@ -3,6 +3,9 @@
     "customTemplates": {},
     "settings": {
         "appearanceTools": false,
+        "background":  {
+            "backgroundImage": true
+        },
         "blocks": {
             "core/image": {
                 "lightbox": {
