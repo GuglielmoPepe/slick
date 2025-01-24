@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Container
- * Slug: slick/container
+ * Slug: slick/container--1
  * Categories: generic
  */
 ?>
@@ -21,7 +21,7 @@
                 <!-- wp:column {"verticalAlignment":"stretch","style":{"spacing":{"blockGap":"var:preset|spacing|l","padding":{"right":"0","left":"0","top":"var:preset|spacing|none","bottom":"var:preset|spacing|none"}}}} -->
                 <div class="wp-block-column is-vertically-aligned-stretch" style="padding-top:var(--wp--preset--spacing--none);padding-right:0;padding-bottom:var(--wp--preset--spacing--none);padding-left:0">
 
-                    <!-- wp:pattern {"slug":"slick/slot"} /-->
+                    <!-- wp:pattern {"slug":"slick/slot--1"} /-->
 
                 </div>
                 <!-- /wp:column -->
