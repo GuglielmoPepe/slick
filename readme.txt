@@ -45,7 +45,19 @@ Absolutely! Please, [submit your idea](https://github.com/GuglielmoPepe/slick/is
 
 
 = Unreleased =
-
+* Add "box-1" pattern
+* Add "slot-1" pattern
+* Add "card--1" pattern
+* Add "flag--1" pattern
+* Add "latest-posts--1" pattern
+* Add "container-1" pattern
+* Change "index" template
+* Change "front-page" template
+* Change "page" template
+* Change "single" template
+* Change "404" template
+* Remove "container" pattern
+* Remove "slots" pattern
 
 = 1.2.2 =
 
