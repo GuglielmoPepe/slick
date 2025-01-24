@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Box
- * Slug: slick/box-1
+ * Slug: slick/box--1
  * Categories: generic
  */
 ?>
