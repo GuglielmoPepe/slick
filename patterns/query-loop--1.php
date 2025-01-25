@@ -1,7 +1,7 @@
 <?php
 /**
- * Title: Box 1
- * Slug: slick/box--1
+ * Title: Query loop 1
+ * Slug: slick/query-loop--1
  * Categories: generic
  */
 ?>
