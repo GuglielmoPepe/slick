@@ -47,21 +47,25 @@ Absolutely! Please, [submit your idea](https://github.com/GuglielmoPepe/slick/is
 = Unreleased =
 * Add "cards" pattern
 * Add "flags" pattern
-* Add "query-loop-with-cards" pattern
 * Add "query-loop-with-flags" pattern
 * Add "query-loop-with-slots" pattern
+* Add "archive" template
+* Add "home" template
 * Change "slots" pattern
 * Change "container" pattern
+* Change "index" template
+* Change "front-page" template
+* Change "404" template
+* Change "page" template
+* Change "single" template
 
 
 
 * Change all dimension in rem
 
-* Change "index" template
-* Change "front-page" template
-* Change "page" template
-* Change "single" template
-* Change "404" template
+
+
+
 
 
 
