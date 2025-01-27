@@ -49,6 +49,9 @@ Absolutely! Please, [submit your idea](https://github.com/GuglielmoPepe/slick/is
 * Add "flags" pattern
 * Add "query-loop-with-flags" pattern
 * Add "query-loop-with-slots" pattern
+* Add "post" pattern
+* Add "page" pattern
+* Add "404" pattern
 * Add "archive" template
 * Add "home" template
 * Change "slots" pattern
