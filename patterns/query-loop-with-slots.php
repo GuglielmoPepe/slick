@@ -54,7 +54,7 @@
                     <!-- wp:group {"style":{"spacing":{"padding":{"right":"var:preset|spacing|l","left":"var:preset|spacing|l","top":"0","bottom":"0"}}},"layout":{"type":"constrained"}} -->
                     <div class="wp-block-group" style="padding-top:0;padding-right:var(--wp--preset--spacing--l);padding-bottom:0;padding-left:var(--wp--preset--spacing--l)">
 
-                        <!-- wp:query-pagination -->
+                        <!-- wp:query-pagination {"layout":{"type":"flex","justifyContent":"space-between"}} -->
 
                             <!-- wp:query-pagination-previous /-->
 
@@ -70,9 +70,9 @@
                     <!-- wp:group {"style":{"spacing":{"padding":{"right":"var:preset|spacing|l","left":"var:preset|spacing|l","top":"0","bottom":"0"}}},"layout":{"type":"constrained"}} -->
                     <div class="wp-block-group" style="padding-top:0;padding-right:var(--wp--preset--spacing--l);padding-bottom:0;padding-left:var(--wp--preset--spacing--l)">
 
-                        <!-- wp:query-no-results -->
+                        <!-- wp:query-no-results {"align":"center"} -->
 
-                            <!-- wp:paragraph -->
+                            <!-- wp:paragraph {"align":"center"} -->
                             <p><?php echo esc_html_x( 'Sorry, but nothing was found. Please try a search with different keywords.', 'Message explaining that there are no results returned from a search.', 'slick' ); ?></p>
                             <!-- /wp:paragraph -->
                         
