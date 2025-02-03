@@ -23,10 +23,9 @@ Slick is a simple, lovable and complete starter theme. It is built to leverage t
 
 == Roadmap ==
 
-* Add amazing color palette
-* Add theme variations
 * Add other templates
 * Add other patterns
+* Change placehoders
 
 
 == Frequently Asked Questions ==
@@ -47,20 +46,40 @@ Absolutely! Please, [submit your idea](https://github.com/GuglielmoPepe/slick/is
 = Unreleased =
 * Add "cards" pattern
 * Add "flags" pattern
-* Add "query-loop-with-flags" pattern
-* Add "query-loop-with-slots" pattern
-* Add "post" pattern
-* Add "page" pattern
-* Add "404" pattern
+* Add "query-loop" pattern
+
 * Add "archive" template
 * Add "home" template
-* Change "slots" pattern
-* Change "container" pattern
+
 * Change "index" template
 * Change "front-page" template
 * Change "404" template
 * Change "page" template
 * Change "single" template
+
+* Change "container" pattern
+* Change "slots" pattern
+
+* Change color palette in theme.json
+* Change font-size in theme.json
+* Change spacing scale in theme.json
+
+
+
+
+
+* Add Noto font family
+
+
+
+
+* Add cold theme.json
+* Add warm theme.json
+
+* Add "post" pattern
+* Add "page" pattern
+* Add "404" pattern
+
 
 
 

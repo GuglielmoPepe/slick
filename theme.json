@@ -100,7 +100,7 @@
             "minHeight": true
         },
         "layout": {
-            "contentSize": "1200px",
+            "contentSize": "960px",
             "wideSize": "1440px"
         },
         "position": {
@@ -283,7 +283,7 @@
         },
         "typography": {
             "lineHeight": 1.5,
-            "fontFamily": "var:preset|font-family|secondary",
+            "fontFamily": "var:preset|font-family|primary",
             "fontSize": "var:preset|font-size|small"
         }
     },
