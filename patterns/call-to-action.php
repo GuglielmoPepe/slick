@@ -1,7 +1,7 @@
 <?php
 /**
- * Title: Flags
- * Slug: slick/flags
+ * Title: Call to action
+ * Slug: slick/call-to-action
  * Categories: generic
  */
 ?>
@@ -26,7 +26,7 @@
 
                         <!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
                         <figure class="wp-block-image size-large">
-                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/1x1.png" alt="<?php echo esc_attr_x( 'Placeholder image with 1x1 aspect ratio', 'Alt text for placeholder image', 'slick' ); ?>" />
+                            <img src="http://localhost/wordpress/develop/wp-content/themes/slick/assets/images/1x1.png" alt="Placeholder image with 1x1 aspect ratio"/>
                         </figure>
                         <!-- /wp:image -->
 
@@ -59,6 +59,22 @@
                         <!-- wp:paragraph -->
                         <p><?php echo esc_html_x( 'Sample content. Replace the text with your own content.', 'sample content', 'slick' ); ?></p>
                         <!-- /wp:paragraph -->
+                    
+                    </div>
+                    <!-- /wp:group -->
+
+                    <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|l","margin":{"top":"var:preset|spacing|none","bottom":"var:preset|spacing|none"},"padding":{"right":"var:preset|spacing|l","left":"var:preset|spacing|l","top":"var:preset|spacing|l","bottom":"var:preset|spacing|l"}}},"layout":{"type":"constrained"}} -->
+                    <div class="wp-block-group" style="margin-top:var(--wp--preset--spacing--none);margin-bottom:var(--wp--preset--spacing--none);padding-top:var(--wp--preset--spacing--l);padding-right:var(--wp--preset--spacing--l);padding-bottom:var(--wp--preset--spacing--l);padding-left:var(--wp--preset--spacing--l)">
+
+                        <!-- wp:buttons -->
+                        <div class="wp-block-buttons">
+
+                            <!-- wp:button -->
+                            <div class="wp-block-button"><a class="wp-block-button__link wp-element-button"><?php echo esc_html_x( 'Call to action', 'sample cta', 'slick' ); ?></a></div>
+                            <!-- /wp:button -->
+
+                        </div>
+                        <!-- /wp:buttons -->
 
                     </div>
                     <!-- /wp:group -->
