@@ -34,63 +34,73 @@
             "palette":  [
                 {
                     "color": "#fcfcfc",
-                    "name":"Base lighter",
-                    "slug": "base-lighter"
+                    "name":"Color 1",
+                    "slug": "color-1"
+                },
+                {
+                    "color": "#f9f9f9",
+                    "name":"Color 2",
+                    "slug": "color-2"
+                },
+                {
+                    "color": "#f6f6f6",
+                    "name":"Color 3",
+                    "slug": "color-3"
+                },
+                {
+                    "color": "#f3f3f3",
+                    "name":"Color 4",
+                    "slug": "color-4"
+                },
+                {
+                    "color": "#f0f0f0",
+                    "name":"Color 5",
+                    "slug": "color-5"
+                },
+                {
+                    "color": "#e6e6e6",
+                    "name":"Color 10",
+                    "slug": "color-10"
+                },
+                {
+                    "color": "#c9c9c9",
+                    "name":"Color 20",
+                    "slug": "color-20"
+                },
+                {
+                    "color": "#adadad",
+                    "name":"Color 30",
+                    "slug": "color-30"
+                },
+                {
+                    "color": "#919191",
+                    "name":"Color 40",
+                    "slug": "color-40"
                 },
                 {
                     "color": "#757575",
-                    "name":"Base",
-                    "slug": "base"
+                    "name":"Color 50",
+                    "slug": "color-50"
+                },
+                {
+                    "color": "#5c5c5c",
+                    "name":"Color 60",
+                    "slug": "color-60"
+                },
+                {
+                    "color": "#454545",
+                    "name":"Color 70",
+                    "slug": "color-70"
+                },
+                {
+                    "color": "#2e2e2e",
+                    "name":"Color 80",
+                    "slug": "color-80"
                 },
                 {
                     "color": "#1b1b1b",
-                    "name":"Base darker",
-                    "slug": "base-darker"
-                },
-                {
-                    "color": "#eff6fb",
-                    "name":"Primary lighter",
-                    "slug": "primary-lighter"
-                },
-                {
-                    "color": "#2378c3",
-                    "name":"Primary",
-                    "slug": "primary"
-                },
-                {
-                    "color": "#11181d",
-                    "name":"Primary darker",
-                    "slug": "primary-darker"
-                },
-                {
-                    "color": "#ccecf2",
-                    "name":"Secondary lighter",
-                    "slug": "secondary-lighter"
-                },
-                {
-                    "color": "#168092",
-                    "name":"Secondary",
-                    "slug": "secondary"
-                },
-                {
-                    "color": "#111819",
-                    "name":"Secondary darker",
-                    "slug": "secondary-darker"
-                },
-                {
-                    "color": "#f5e6af",
-                    "name":"Accent lighter",
-                    "slug": "accent-lighter"
-                },
-                {
-                    "color": "#8a7237",
-                    "name":"Accent",
-                    "slug": "accent"
-                },
-                {
-                    "color": "#1a1614",
-                    "name":"Accent darker",
-                    "slug": "accent-darker"
+                    "name":"Color 90",
+                    "slug": "color-90"
                 }
             ],
             "text": true
@@ -151,11 +161,6 @@
                     "slug": "xxl",
                     "size": "64px",
                     "name": "xxl"
-                },
-                {
-                    "slug": "xxxl",
-                    "size": "128px",
-                    "name": "xxxl"
                 }
             ],
             "units": [ "%", "px", "em", "rem", "vh", "vw" ]
@@ -172,13 +177,13 @@
                 },
                 {
                     "fontFamily": "Iowan Old Style, Apple Garamond, Baskerville, Times New Roman, Droid Serif, Times, Source Serif Pro, serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol",
-                    "name": "Primary",
-                    "slug": "primary"
+                    "name": "Serif",
+                    "slug": "serif"
                 },
                 {
                     "fontFamily": "-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif",
-                    "name": "Secondary",
-                    "slug": "secondary"
+                    "name": "Sans serif",
+                    "slug": "sans-serif"
                 }
             ],
             "fontSizes": [
@@ -208,8 +213,13 @@
                     "name": "large"
                 },
                 {
-                    "slug": "huge",
+                    "slug": "big",
                     "size": "32px",
+                    "name": "big"
+                },
+                {
+                    "slug": "huge",
+                    "size": "36px",
                     "name": "huge"
                 }
             ],
@@ -227,13 +237,13 @@
     "styles": {
         "blocks": {},
         "color": {
-            "background": "var:preset|color|base-lighter",
-            "text": "var:preset|color|base-darker"
+            "background": "var:preset|color|color-1",
+            "text": "var:preset|color|color-90"
         },
         "elements": {
             "h1": {
                 "typography": {
-                    "fontSize": "var:preset|font-size|huge"
+                    "fontSize": "var:preset|font-size|big"
                 }
             },
             "h2": {
@@ -260,16 +270,6 @@
                 "typography": {
                     "fontSize": "var:preset|font-size|tiny"
                 }
-            },
-            "link": {
-                ":hover": {
-                    "typography": {
-                        "textDecoration": "none"
-                    }
-                },
-                "color": {
-                    "text": "var:preset|color|accent"
-                }
             }
         },
         "spacing": {
@@ -283,7 +283,7 @@
         },
         "typography": {
             "lineHeight": 1.5,
-            "fontFamily": "var:preset|font-family|primary",
+            "fontFamily": "var:preset|font-family|sans-serif",
             "fontSize": "var:preset|font-size|small"
         }
     },
