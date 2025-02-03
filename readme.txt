@@ -68,26 +68,6 @@ Absolutely! Please, [submit your idea](https://github.com/GuglielmoPepe/slick/is
 
 
 
-* Add Noto font family
-
-
-
-
-* Add cold theme.json
-* Add warm theme.json
-
-* Add "post" pattern
-* Add "page" pattern
-* Add "404" pattern
-
-
-
-
-* Change all dimension in rem
-
-
-
-
 
 
 
