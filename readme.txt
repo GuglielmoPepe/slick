@@ -1,16 +1,16 @@
 === Slick ===
 Contributors: gpepe
 Tags: full-site-editing, blog
-Requires at least: 6.4
-Tested up to: 6.4
-Requires PHP: 7.0
-Stable tag: 1.2.2
+Requires at least: 6.7
+Tested up to: 6.7.1
+Requires PHP: 7.4
+Stable tag: 2.0.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
-Slick is a simple, lovable and complete starter theme. It is built to leverage the full site editing functionality and developed for flexibility. Slick comes with two only pattern and full page designs to help speed up the site building process, is fully compatible with the site editor, and takes advantage of new design tools introduced in WordPress 6.4.
+Slick is a simple, lovable and complete starter theme. It is built to leverage the full site editing functionality and developed for flexibility. Slick comes with two only pattern and full page designs to help speed up the site building process, is fully compatible with the site editor, and takes advantage of new design tools introduced in WordPress 6.7.
 
 
 == Installation ==
@@ -23,9 +23,9 @@ Slick is a simple, lovable and complete starter theme. It is built to leverage t
 
 == Roadmap ==
 
+* Add amazing color palette
+* Add theme variations
 * Add other templates
-* Add other patterns
-* Change placehoders
 
 
 == Frequently Asked Questions ==
@@ -44,34 +44,42 @@ Absolutely! Please, [submit your idea](https://github.com/GuglielmoPepe/slick/is
 
 
 = Unreleased =
-* Add "cards" pattern
-* Add "flags" pattern
-* Add "query-loop" pattern
 
+
+* Change list style position for archive block
+
+
+= 2.0.0 =
+
+* Add Noto font family asset
+* Add "404" pattern
+* Add "aside" pattern
+* Add "benefit" pattern
+* Add "call-to-action" pattern
+* Add "faq" pattern
+* Add "footer" pattern
+* Add "header" pattern
+* Add "hero" pattern
+* Add "page" pattern
+* Add "post" pattern
+* Add "query-loop" pattern
 * Add "archive" template
 * Add "home" template
-
-* Change "index" template
-* Change "front-page" template
-* Change "404" template
-* Change "page" template
-* Change "single" template
-
 * Change "container" pattern
 * Change "slots" pattern
-
+* Change "aside" partial
+* Change "footer" partial
+* Change "header" partial
+* Change "404" template
+* Change "front-page" template
+* Change "index" template
+* Change "page" template
+* Change "single" template
 * Change color palette in theme.json
+* Change font-family in theme.json
 * Change font-size in theme.json
 * Change spacing scale in theme.json
-
-
-
-
-
-
-
-
-
+* Change layout size in theme.json
 
 
 = 1.2.2 =
