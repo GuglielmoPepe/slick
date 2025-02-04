@@ -1,4 +1,4 @@
-Slick is an experimental simple, lovable and complete starter theme.
+Slick is an ~~experimental~~ simple, lovable and complete starter theme.
 
 ## Description
 

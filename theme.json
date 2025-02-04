@@ -1342,7 +1342,7 @@
         },
         "typography": {
             "lineHeight": 1.5,
-            "fontFamily": "var:preset|font-family|noto-serif",
+            "fontFamily": "var:preset|font-family|noto-sans",
             "fontSize": "var:preset|font-size|small"
         }
     },
