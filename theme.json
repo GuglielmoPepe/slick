@@ -176,13 +176,17 @@
 							"fontFamily": "\"Noto Sans\"",
 							"fontStyle": "normal",
 							"fontWeight": "100 900",
-							"src": "./assets/fonts/Noto_Sans/NotoSans-VariableFont_wdthwght.ttf"
+                            "src": [
+								"file:./assets/fonts/Noto_Sans/NotoSans-VariableFont_wdthwght.ttf"
+							]
 						},
 						{
 							"fontFamily": "\"Noto Sans\"",
 							"fontStyle": "italic",
 							"fontWeight": "100 900",
-							"src": "./assets/fonts/Noto_Sans/NotoSans-Italic-VariableFont_wdthwght.ttf"
+                            "src": [
+								"file:./assets/fonts/Noto_Sans/NotoSans-Italic-VariableFont_wdthwght.ttf"
+							]
 						}
 					],
 					"fontFamily": "\"Noto Sans\"",
@@ -195,7 +199,9 @@
 							"fontFamily": "\"Noto Sans Mono\"",
 							"fontStyle": "normal",
 							"fontWeight": "100 900",
-							"src": "./assets/fonts/Noto_Sans_Mono/NotoSansMono-VariableFont_wdthwght.ttf"
+                            "src": [
+								"file:./assets/fonts/Noto_Sans_Mono/NotoSansMono-VariableFont_wdthwght.ttf"
+							]
 						}
 					],
 					"fontFamily": "\"Noto Sans Mono\"",
@@ -208,13 +214,17 @@
 							"fontFamily": "\"Noto Serif\"",
 							"fontStyle": "normal",
 							"fontWeight": "100 900",
-							"src": "./assets/fonts/Noto_Serif/NotoSerif-VariableFont_wdthwght.ttf"
+                            "src": [
+								"file:./assets/fonts/Noto_Serif/NotoSerif-VariableFont_wdthwght.ttf"
+							]
 						},
 						{
 							"fontFamily": "\"Noto Serif\"",
 							"fontStyle": "italic",
 							"fontWeight": "100 900",
-							"src": "./assets/fonts/Noto_Serif/NotoSerif-Italic-VariableFont_wdthwght.ttf"
+                            "src": [
+								"file:./assets/fonts/Noto_Serif/NotoSerif-Italic-VariableFont_wdthwght.ttf"
+							]
 						}
 					],
 					"fontFamily": "\"Noto Serif\"",
