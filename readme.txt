@@ -26,6 +26,7 @@ Slick is a simple, lovable and complete starter theme. It is built to leverage t
 * Add amazing color palette
 * Add theme variations
 * Add other templates
+* Add webp image placeholder
 
 
 == Frequently Asked Questions ==
