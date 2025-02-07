@@ -1,301 +1,3030 @@
 {
-    "$schema": "https://schemas.wp.org/trunk/theme.json",
-    "customTemplates": {},
-    "settings": {
-        "appearanceTools": false,
-        "blocks": {
-            "core/image": {
-                "lightbox": {
-                    "allowEditing": true,
-                    "enabled": true
-                }
-            }
-        },
-        "border": {
-            "color": true,
-            "radius": true,
-            "style": true,
-            "width": true
-        },
-        "color": {
-            "background": true,
-            "custom": true,
-            "customDuotone": true,
-            "customGradient": true,
-            "defaultDuotone": true,
-            "defaultGradients": true,
-            "defaultPalette": true,
-            "duotone": [],
-            "gradients": [],
-            "link": true,
-            "palette":  [
-                {
-                    "color": "#fcfcfc",
-                    "name":"Base lighter",
-                    "slug": "base-lighter"
-                },
-                {
-                    "color": "#757575",
-                    "name":"Base",
-                    "slug": "base"
-                },
-                {
-                    "color": "#1b1b1b",
-                    "name":"Base darker",
-                    "slug": "base-darker"
-                },
-                {
-                    "color": "#eff6fb",
-                    "name":"Primary lighter",
-                    "slug": "primary-lighter"
-                },
-                {
-                    "color": "#2378c3",
-                    "name":"Primary",
-                    "slug": "primary"
-                },
-                {
-                    "color": "#11181d",
-                    "name":"Primary darker",
-                    "slug": "primary-darker"
-                },
-                {
-                    "color": "#ccecf2",
-                    "name":"Secondary lighter",
-                    "slug": "secondary-lighter"
-                },
-                {
-                    "color": "#168092",
-                    "name":"Secondary",
-                    "slug": "secondary"
-                },
-                {
-                    "color": "#111819",
-                    "name":"Secondary darker",
-                    "slug": "secondary-darker"
-                },
-                {
-                    "color": "#f5e6af",
-                    "name":"Accent lighter",
-                    "slug": "accent-lighter"
-                },
-                {
-                    "color": "#8a7237",
-                    "name":"Accent",
-                    "slug": "accent"
-                },
-                {
-                    "color": "#1a1614",
-                    "name":"Accent darker",
-                    "slug": "accent-darker"
-                }
-            ],
-            "text": true
-        },
-        "custom": {},
-        "dimensions": {
-            "minHeight": true
-        },
-        "layout": {
-            "contentSize": "1200px",
-            "wideSize": "1440px"
-        },
-        "position": {
-            "sticky": true
-        },
-        "shadow": {},
-        "spacing": {
-            "blockGap": true,
-            "margin": true,
-            "padding": true,
-            "spacingSizes": [
-                {
-                    "slug": "none",
-                    "size": "0",
-                    "name": "none"
-                },
-                {
-                    "slug": "xxs",
-                    "size": "1px",
-                    "name": "xxs"
-                },
-                {
-                    "slug": "xs",
-                    "size": "2px",
-                    "name": "xs"
-                },
-                {
-                    "slug": "s",
-                    "size": "4px",
-                    "name": "s"
-                },
-                {
-                    "slug": "m",
-                    "size": "8px",
-                    "name": "m"
-                },
-                {
-                    "slug": "l",
-                    "size": "16px",
-                    "name": "l"
-                },
-                {
-                    "slug": "xl",
-                    "size": "32px",
-                    "name": "xl"
-                },
-                {
-                    "slug": "xxl",
-                    "size": "64px",
-                    "name": "xxl"
-                },
-                {
-                    "slug": "xxxl",
-                    "size": "128px",
-                    "name": "xxxl"
-                }
-            ],
-            "units": [ "%", "px", "em", "rem", "vh", "vw" ]
-        },
-        "typography": {
-            "customFontSize": true,
-            "dropCap": true,
-            "fluid": false,
-            "fontFamilies": [
-                {
-                    "fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif",
-                    "name": "Monospace",
-                    "slug": "monospace"
-                },
-                {
-                    "fontFamily": "Iowan Old Style, Apple Garamond, Baskerville, Times New Roman, Droid Serif, Times, Source Serif Pro, serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol",
-                    "name": "Primary",
-                    "slug": "primary"
-                },
-                {
-                    "fontFamily": "-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif",
-                    "name": "Secondary",
-                    "slug": "secondary"
-                }
-            ],
-            "fontSizes": [
-                {
-                    "slug": "tiny",
-                    "size": "12px",
-                    "name": "tiny"
-                },
-                {
-                    "slug": "small",
-                    "size": "16px",
-                    "name": "small"
-                },
-                {
-                    "slug": "regular",
-                    "size": "20px",
-                    "name": "regular"
-                },
-                {
-                    "slug": "medium",
-                    "size": "24px",
-                    "name": "medium"
-                },
-                {
-                    "slug": "large",
-                    "size": "28px",
-                    "name": "large"
-                },
-                {
-                    "slug": "huge",
-                    "size": "32px",
-                    "name": "huge"
-                }
-            ],
-            "fontStyle": true,
-            "fontWeight": true,
-            "letterSpacing": true,
-            "lineHeight": true,
-            "textColumns": true,
-            "textDecoration": true,
-            "textTransform": true,
-            "writingMode": true
-        },
-        "useRootPaddingAwareAlignments": true
-    },
-    "styles": {
-        "blocks": {},
-        "color": {
-            "background": "var:preset|color|base-lighter",
-            "text": "var:preset|color|base-darker"
-        },
-        "elements": {
-            "h1": {
-                "typography": {
-                    "fontSize": "var:preset|font-size|huge"
-                }
-            },
-            "h2": {
-                "typography": {
-                    "fontSize": "var:preset|font-size|large"
-                }
-            },
-            "h3": {
-                "typography": {
-                    "fontSize": "var:preset|font-size|medium"
-                }
-            },
-            "h4": {
-                "typography": {
-                    "fontSize": "var:preset|font-size|regular"
-                }
-            },
-            "h5": {
-                "typography": {
-                    "fontSize": "var:preset|font-size|small"
-                }
-            },
-            "h6": {
-                "typography": {
-                    "fontSize": "var:preset|font-size|tiny"
-                }
-            },
-            "link": {
-                ":hover": {
-                    "typography": {
-                        "textDecoration": "none"
-                    }
-                },
-                "color": {
-                    "text": "var:preset|color|accent"
-                }
-            }
-        },
-        "spacing": {
-            "blockGap": "var:preset|spacing|none",
-            "padding": {
-                "top": "0",
-                "bottom": "0",
-                "left": "0",
-                "right": "0"
-            }
-        },
-        "typography": {
-            "lineHeight": 1.5,
-            "fontFamily": "var:preset|font-family|secondary",
-            "fontSize": "var:preset|font-size|small"
-        }
-    },
-    "patterns": [],
-    "templateParts": [
-        {
-            "area": "header",
-            "name": "header",
-            "title": "header"
-        },
-        {
-            "area": "footer",
-            "name": "footer",
-            "title": "footer"
-        }
-    ],
-    "version": 2
+	"$schema": "https://schemas.wp.org/wp/6.7/theme.json",
+	"customTemplates": [],
+	"patterns": [],
+	"settings": {
+		"appearanceTools": false,
+		"background": {
+			"backgroundImage": true
+		},
+		"blocks": {
+			"core/image": {
+				"lightbox": {
+					"allowEditing": true,
+					"enabled": true
+				}
+			}
+		},
+		"border": {
+			"color": true,
+			"radius": true,
+			"style": true,
+			"width": true
+		},
+		"color": {
+			"background": true,
+			"custom": true,
+			"customDuotone": true,
+			"customGradient": true,
+			"defaultDuotone": true,
+			"defaultGradients": true,
+			"defaultPalette": true,
+			"duotone": [],
+			"gradients": [],
+			"link": true,
+			"palette": [
+				{
+					"color": "#fcfcfc",
+					"name": "Color 1",
+					"slug": "color-1"
+				},
+				{
+					"color": "#f9f9f9",
+					"name": "Color 2",
+					"slug": "color-2"
+				},
+				{
+					"color": "#f6f6f6",
+					"name": "Color 3",
+					"slug": "color-3"
+				},
+				{
+					"color": "#f3f3f3",
+					"name": "Color 4",
+					"slug": "color-4"
+				},
+				{
+					"color": "#f0f0f0",
+					"name": "Color 5",
+					"slug": "color-5"
+				},
+				{
+					"color": "#e6e6e6",
+					"name": "Color 10",
+					"slug": "color-10"
+				},
+				{
+					"color": "#c9c9c9",
+					"name": "Color 20",
+					"slug": "color-20"
+				},
+				{
+					"color": "#adadad",
+					"name": "Color 30",
+					"slug": "color-30"
+				},
+				{
+					"color": "#919191",
+					"name": "Color 40",
+					"slug": "color-40"
+				},
+				{
+					"color": "#757575",
+					"name": "Color 50",
+					"slug": "color-50"
+				},
+				{
+					"color": "#5c5c5c",
+					"name": "Color 60",
+					"slug": "color-60"
+				},
+				{
+					"color": "#454545",
+					"name": "Color 70",
+					"slug": "color-70"
+				},
+				{
+					"color": "#2e2e2e",
+					"name": "Color 80",
+					"slug": "color-80"
+				},
+				{
+					"color": "#1b1b1b",
+					"name": "Color 90",
+					"slug": "color-90"
+				}
+			],
+			"text": true
+		},
+		"custom": [],
+		"dimensions": {
+			"minHeight": true
+		},
+		"layout": {
+			"contentSize": "960px",
+			"wideSize": "1440px"
+		},
+		"position": {
+			"sticky": true
+		},
+		"shadow": [],
+		"spacing": {
+			"blockGap": true,
+			"defaultSpacingSizes": false,
+			"margin": true,
+			"padding": true,
+			"spacingSizes": [
+				{
+					"name": "none",
+					"size": "0",
+					"slug": "none"
+				},
+				{
+					"name": "xxs",
+					"size": "1px",
+					"slug": "xxs"
+				},
+				{
+					"name": "xs",
+					"size": "2px",
+					"slug": "xs"
+				},
+				{
+					"name": "s",
+					"size": "4px",
+					"slug": "s"
+				},
+				{
+					"name": "m",
+					"size": "8px",
+					"slug": "m"
+				},
+				{
+					"name": "l",
+					"size": "16px",
+					"slug": "l"
+				},
+				{
+					"name": "xl",
+					"size": "32px",
+					"slug": "xl"
+				},
+				{
+					"name": "xxl",
+					"size": "64px",
+					"slug": "xxl"
+				}
+			],
+			"units": [
+				"%",
+				"px",
+				"em",
+				"rem",
+				"vh",
+				"vw"
+			]
+		},
+		"typography": {
+			"customFontSize": true,
+			"defaultFontSizes": false,
+			"dropCap": true,
+			"fluid": false,
+			"fontFamilies": [
+				{
+					"fontFace": [
+						{
+							"fontFamily": "\"Noto Sans\"",
+							"fontStyle": "italic",
+							"fontWeight": "100",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans/static/NotoSans-ThinItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans\"",
+							"fontStyle": "normal",
+							"fontWeight": "100",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans/static/NotoSans-Thin.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans\"",
+							"fontStyle": "italic",
+							"fontWeight": "200",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans/static/NotoSans-ExtraLightItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans\"",
+							"fontStyle": "normal",
+							"fontWeight": "200",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans/static/NotoSans-ExtraLight.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans\"",
+							"fontStyle": "italic",
+							"fontWeight": "600",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans/static/NotoSans-SemiBoldItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans\"",
+							"fontStyle": "normal",
+							"fontWeight": "600",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans/static/NotoSans-SemiBold.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans\"",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans/static/NotoSans-Regular.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans\"",
+							"fontStyle": "italic",
+							"fontWeight": "500",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans/static/NotoSans-MediumItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans\"",
+							"fontStyle": "normal",
+							"fontWeight": "500",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans/static/NotoSans-Medium.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans\"",
+							"fontStyle": "italic",
+							"fontWeight": "300",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans/static/NotoSans-LightItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans\"",
+							"fontStyle": "normal",
+							"fontWeight": "300",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans/static/NotoSans-Light.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans\"",
+							"fontStyle": "italic",
+							"fontWeight": "400",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans/static/NotoSans-Italic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans\"",
+							"fontStyle": "italic",
+							"fontWeight": "800",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans/static/NotoSans-ExtraBoldItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans\"",
+							"fontStyle": "normal",
+							"fontWeight": "800",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans/static/NotoSans-ExtraBold.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans\"",
+							"fontStyle": "italic",
+							"fontWeight": "700",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans/static/NotoSans-BoldItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans\"",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans/static/NotoSans-Bold.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans\"",
+							"fontStyle": "italic",
+							"fontWeight": "900",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans/static/NotoSans-BlackItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans\"",
+							"fontStyle": "normal",
+							"fontWeight": "900",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans/static/NotoSans-Black.ttf"
+							]
+						}
+					],
+					"fontFamily": "\"Noto Sans\"",
+					"name": "Noto Sans",
+					"slug": "noto-sans"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "\"Noto Sans Mono\"",
+							"fontStyle": "normal",
+							"fontWeight": "100",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans_Mono/static/NotoSansMono-Thin.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans Mono\"",
+							"fontStyle": "normal",
+							"fontWeight": "200",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans_Mono/static/NotoSansMono-ExtraLight.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans Mono\"",
+							"fontStyle": "normal",
+							"fontWeight": "600",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans_Mono/static/NotoSansMono-SemiBold.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans Mono\"",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans_Mono/static/NotoSansMono-Regular.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans Mono\"",
+							"fontStyle": "normal",
+							"fontWeight": "500",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans_Mono/static/NotoSansMono-Medium.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans Mono\"",
+							"fontStyle": "normal",
+							"fontWeight": "300",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans_Mono/static/NotoSansMono-Light.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans Mono\"",
+							"fontStyle": "normal",
+							"fontWeight": "800",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans_Mono/static/NotoSansMono-ExtraBold.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans Mono\"",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans_Mono/static/NotoSansMono-Bold.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans Mono\"",
+							"fontStyle": "normal",
+							"fontWeight": "900",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans_Mono/static/NotoSansMono-Black.ttf"
+							]
+						}
+					],
+					"fontFamily": "\"Noto Sans Mono\"",
+					"name": "Noto Sans Mono",
+					"slug": "noto-sans-mono"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "\"Noto Serif\"",
+							"fontStyle": "italic",
+							"fontWeight": "100",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif/static/NotoSerif-ThinItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif\"",
+							"fontStyle": "normal",
+							"fontWeight": "100",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif/static/NotoSerif-Thin.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif\"",
+							"fontStyle": "italic",
+							"fontWeight": "200",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif/static/NotoSerif-ExtraLightItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif\"",
+							"fontStyle": "normal",
+							"fontWeight": "200",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif/static/NotoSerif-ExtraLight.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif\"",
+							"fontStyle": "italic",
+							"fontWeight": "600",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif/static/NotoSerif-SemiBoldItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif\"",
+							"fontStyle": "normal",
+							"fontWeight": "600",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif/static/NotoSerif-SemiBold.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif\"",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif/static/NotoSerif-Regular.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif\"",
+							"fontStyle": "italic",
+							"fontWeight": "500",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif/static/NotoSerif-MediumItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif\"",
+							"fontStyle": "normal",
+							"fontWeight": "500",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif/static/NotoSerif-Medium.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif\"",
+							"fontStyle": "italic",
+							"fontWeight": "300",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif/static/NotoSerif-LightItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif\"",
+							"fontStyle": "normal",
+							"fontWeight": "300",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif/static/NotoSerif-Light.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif\"",
+							"fontStyle": "italic",
+							"fontWeight": "400",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif/static/NotoSerif-Italic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif\"",
+							"fontStyle": "italic",
+							"fontWeight": "800",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif/static/NotoSerif-ExtraBoldItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif\"",
+							"fontStyle": "normal",
+							"fontWeight": "800",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif/static/NotoSerif-ExtraBold.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif\"",
+							"fontStyle": "italic",
+							"fontWeight": "700",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif/static/NotoSerif-BoldItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif\"",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif/static/NotoSerif-Bold.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif\"",
+							"fontStyle": "italic",
+							"fontWeight": "900",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif/static/NotoSerif-BlackItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif\"",
+							"fontStyle": "normal",
+							"fontWeight": "900",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif/static/NotoSerif-Black.ttf"
+							]
+						}
+					],
+					"fontFamily": "\"Noto Serif\"",
+					"name": "Noto Serif",
+					"slug": "noto-serif"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "\"Noto Sans SemiCondensed\"",
+							"fontStyle": "italic",
+							"fontWeight": "100",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans/static/NotoSans_SemiCondensed-ThinItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans SemiCondensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "100",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans/static/NotoSans_SemiCondensed-Thin.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans SemiCondensed\"",
+							"fontStyle": "italic",
+							"fontWeight": "200",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans/static/NotoSans_SemiCondensed-ExtraLightItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans SemiCondensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "200",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans/static/NotoSans_SemiCondensed-ExtraLight.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans SemiCondensed\"",
+							"fontStyle": "italic",
+							"fontWeight": "600",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans/static/NotoSans_SemiCondensed-SemiBoldItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans SemiCondensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "600",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans/static/NotoSans_SemiCondensed-SemiBold.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans SemiCondensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans/static/NotoSans_SemiCondensed-Regular.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans SemiCondensed\"",
+							"fontStyle": "italic",
+							"fontWeight": "500",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans/static/NotoSans_SemiCondensed-MediumItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans SemiCondensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "500",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans/static/NotoSans_SemiCondensed-Medium.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans SemiCondensed\"",
+							"fontStyle": "italic",
+							"fontWeight": "300",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans/static/NotoSans_SemiCondensed-LightItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans SemiCondensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "300",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans/static/NotoSans_SemiCondensed-Light.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans SemiCondensed\"",
+							"fontStyle": "italic",
+							"fontWeight": "400",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans/static/NotoSans_SemiCondensed-Italic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans SemiCondensed\"",
+							"fontStyle": "italic",
+							"fontWeight": "800",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans/static/NotoSans_SemiCondensed-ExtraBoldItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans SemiCondensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "800",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans/static/NotoSans_SemiCondensed-ExtraBold.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans SemiCondensed\"",
+							"fontStyle": "italic",
+							"fontWeight": "700",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans/static/NotoSans_SemiCondensed-BoldItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans SemiCondensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans/static/NotoSans_SemiCondensed-Bold.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans SemiCondensed\"",
+							"fontStyle": "italic",
+							"fontWeight": "900",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans/static/NotoSans_SemiCondensed-BlackItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans SemiCondensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "900",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans/static/NotoSans_SemiCondensed-Black.ttf"
+							]
+						}
+					],
+					"fontFamily": "\"Noto Sans SemiCondensed\"",
+					"name": "Noto Sans SemiCondensed",
+					"slug": "noto-sans-semicondensed"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "\"Noto Sans ExtraCondensed\"",
+							"fontStyle": "italic",
+							"fontWeight": "100",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans/static/NotoSans_ExtraCondensed-ThinItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans ExtraCondensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "100",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans/static/NotoSans_ExtraCondensed-Thin.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans ExtraCondensed\"",
+							"fontStyle": "italic",
+							"fontWeight": "200",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans/static/NotoSans_ExtraCondensed-ExtraLightItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans ExtraCondensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "200",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans/static/NotoSans_ExtraCondensed-ExtraLight.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans ExtraCondensed\"",
+							"fontStyle": "italic",
+							"fontWeight": "600",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans/static/NotoSans_ExtraCondensed-SemiBoldItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans ExtraCondensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "600",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans/static/NotoSans_ExtraCondensed-SemiBold.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans ExtraCondensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans/static/NotoSans_ExtraCondensed-Regular.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans ExtraCondensed\"",
+							"fontStyle": "italic",
+							"fontWeight": "500",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans/static/NotoSans_ExtraCondensed-MediumItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans ExtraCondensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "500",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans/static/NotoSans_ExtraCondensed-Medium.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans ExtraCondensed\"",
+							"fontStyle": "italic",
+							"fontWeight": "300",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans/static/NotoSans_ExtraCondensed-LightItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans ExtraCondensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "300",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans/static/NotoSans_ExtraCondensed-Light.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans ExtraCondensed\"",
+							"fontStyle": "italic",
+							"fontWeight": "400",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans/static/NotoSans_ExtraCondensed-Italic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans ExtraCondensed\"",
+							"fontStyle": "italic",
+							"fontWeight": "800",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans/static/NotoSans_ExtraCondensed-ExtraBoldItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans ExtraCondensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "800",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans/static/NotoSans_ExtraCondensed-ExtraBold.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans ExtraCondensed\"",
+							"fontStyle": "italic",
+							"fontWeight": "700",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans/static/NotoSans_ExtraCondensed-BoldItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans ExtraCondensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans/static/NotoSans_ExtraCondensed-Bold.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans ExtraCondensed\"",
+							"fontStyle": "italic",
+							"fontWeight": "900",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans/static/NotoSans_ExtraCondensed-BlackItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans ExtraCondensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "900",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans/static/NotoSans_ExtraCondensed-Black.ttf"
+							]
+						}
+					],
+					"fontFamily": "\"Noto Sans ExtraCondensed\"",
+					"name": "Noto Sans ExtraCondensed",
+					"slug": "noto-sans-extracondensed"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "\"Noto Sans Condensed\"",
+							"fontStyle": "italic",
+							"fontWeight": "100",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans/static/NotoSans_Condensed-ThinItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans Condensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "100",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans/static/NotoSans_Condensed-Thin.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans Condensed\"",
+							"fontStyle": "italic",
+							"fontWeight": "200",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans/static/NotoSans_Condensed-ExtraLighgtItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans Condensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "200",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans/static/NotoSans_Condensed-ExtraLighgt.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans Condensed\"",
+							"fontStyle": "italic",
+							"fontWeight": "600",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans/static/NotoSans_Condensed-SemiBoldItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans Condensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "600",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans/static/NotoSans_Condensed-SemiBold.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans Condensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans/static/NotoSans_Condensed-Regular.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans Condensed\"",
+							"fontStyle": "italic",
+							"fontWeight": "500",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans/static/NotoSans_Condensed-MediumItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans Condensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "500",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans/static/NotoSans_Condensed-Medium.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans Condensed\"",
+							"fontStyle": "italic",
+							"fontWeight": "300",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans/static/NotoSans_Condensed-LightItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans Condensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "300",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans/static/NotoSans_Condensed-Light.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans Condensed\"",
+							"fontStyle": "italic",
+							"fontWeight": "400",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans/static/NotoSans_Condensed-Italic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans Condensed\"",
+							"fontStyle": "italic",
+							"fontWeight": "800",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans/static/NotoSans_Condensed-ExtraBoldItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans Condensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "800",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans/static/NotoSans_Condensed-ExtraBold.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans Condensed\"",
+							"fontStyle": "italic",
+							"fontWeight": "700",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans/static/NotoSans_Condensed-BoldItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans Condensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans/static/NotoSans_Condensed-Bold.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans Condensed\"",
+							"fontStyle": "italic",
+							"fontWeight": "900",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans/static/NotoSans_Condensed-BlackItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans Condensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "900",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans/static/NotoSans_Condensed-Black.ttf"
+							]
+						}
+					],
+					"fontFamily": "\"Noto Sans Condensed\"",
+					"name": "Noto Sans Condensed",
+					"slug": "noto-sans-condensed"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "\"Noto Sans Display\"",
+							"fontStyle": "italic",
+							"fontWeight": "100",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans_Display/static/NotoSansDisplay-Italic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans Display\"",
+							"fontStyle": "normal",
+							"fontWeight": "100",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans_Display/static/NotoSansDisplay-Thin.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans Display\"",
+							"fontStyle": "italic",
+							"fontWeight": "200",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans_Display/static/NotoSansDisplay-ExtraLightItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans Display\"",
+							"fontStyle": "normal",
+							"fontWeight": "200",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans_Display/static/NotoSansDisplay-ExtraLight.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans Display\"",
+							"fontStyle": "italic",
+							"fontWeight": "600",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans_Display/static/NotoSansDisplay-SemiBoldItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans Display\"",
+							"fontStyle": "normal",
+							"fontWeight": "600",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans_Display/static/NotoSansDisplay-SemiBold.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans Display\"",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans_Display/static/NotoSansDisplay-Regular.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans Display\"",
+							"fontStyle": "italic",
+							"fontWeight": "500",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans_Display/static/NotoSansDisplay-MediumItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans Display\"",
+							"fontStyle": "normal",
+							"fontWeight": "500",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans_Display/static/NotoSansDisplay-Medium.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans Display\"",
+							"fontStyle": "italic",
+							"fontWeight": "300",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans_Display/static/NotoSansDisplay-LightItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans Display\"",
+							"fontStyle": "normal",
+							"fontWeight": "300",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans_Display/static/NotoSansDisplay-Light.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans Display\"",
+							"fontStyle": "italic",
+							"fontWeight": "400",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans_Display/static/NotoSansDisplay-Italic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans Display\"",
+							"fontStyle": "italic",
+							"fontWeight": "800",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans_Display/static/NotoSansDisplay-ExtraBoldItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans Display\"",
+							"fontStyle": "normal",
+							"fontWeight": "800",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans_Display/static/NotoSansDisplay-ExtraBold.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans Display\"",
+							"fontStyle": "italic",
+							"fontWeight": "700",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans_Display/static/NotoSansDisplay-BoldItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans Display\"",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans_Display/static/NotoSansDisplay-Bold.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans Display\"",
+							"fontStyle": "italic",
+							"fontWeight": "900",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans_Display/static/NotoSansDisplay-BlackItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans Display\"",
+							"fontStyle": "normal",
+							"fontWeight": "900",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans_Display/static/NotoSansDisplay-Black.ttf"
+							]
+						}
+					],
+					"fontFamily": "\"Noto Sans Display\"",
+					"name": "Noto Sans Display",
+					"slug": "noto-sans-display"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "\"Noto Sans Display SemiCondensed\"",
+							"fontStyle": "italic",
+							"fontWeight": "100",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans_Display/static/NotoSansDisplay_SemiCondensed-ThinItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans Display SemiCondensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "100",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans_Display/static/NotoSansDisplay_SemiCondensed-Thin.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans Display SemiCondensed\"",
+							"fontStyle": "italic",
+							"fontWeight": "200",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans_Display/static/NotoSansDisplay_SemiCondensed-ExtraLightItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans Display SemiCondensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "200",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans_Display/static/NotoSansDisplay_SemiCondensed-ExtraLight.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans Display SemiCondensed\"",
+							"fontStyle": "italic",
+							"fontWeight": "600",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans_Display/static/NotoSansDisplay_SemiCondensed-SemiBoldItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans Display SemiCondensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "600",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans_Display/static/NotoSansDisplay_SemiCondensed-SemiBold.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans Display SemiCondensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans_Display/static/NotoSansDisplay_SemiCondensed-Regular.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans Display SemiCondensed\"",
+							"fontStyle": "italic",
+							"fontWeight": "500",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans_Display/static/NotoSansDisplay_SemiCondensed-MediumItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans Display SemiCondensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "500",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans_Display/static/NotoSansDisplay_SemiCondensed-Medium.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans Display SemiCondensed\"",
+							"fontStyle": "italic",
+							"fontWeight": "300",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans_Display/static/NotoSansDisplay_SemiCondensed-LightItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans Display SemiCondensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "300",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans_Display/static/NotoSansDisplay_SemiCondensed-Light.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans Display SemiCondensed\"",
+							"fontStyle": "italic",
+							"fontWeight": "400",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans_Display/static/NotoSansDisplay_SemiCondensed-Italic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans Display SemiCondensed\"",
+							"fontStyle": "italic",
+							"fontWeight": "800",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans_Display/static/NotoSansDisplay_SemiCondensed-ExtraBoldItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans Display SemiCondensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "800",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans_Display/static/NotoSansDisplay_SemiCondensed-ExtraBold.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans Display SemiCondensed\"",
+							"fontStyle": "italic",
+							"fontWeight": "700",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans_Display/static/NotoSansDisplay_SemiCondensed-BoldItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans Display SemiCondensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans_Display/static/NotoSansDisplay_SemiCondensed-Bold.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans Display SemiCondensed\"",
+							"fontStyle": "italic",
+							"fontWeight": "900",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans_Display/static/NotoSansDisplay_SemiCondensed-BlackItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans Display SemiCondensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "900",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans_Display/static/NotoSansDisplay_SemiCondensed-Black.ttf"
+							]
+						}
+					],
+					"fontFamily": "\"Noto Sans Display SemiCondensed\"",
+					"name": "Noto Sans Display SemiCondensed",
+					"slug": "noto-sans-display-semicondensed"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "\"Noto Sans Display ExtraCondensed\"",
+							"fontStyle": "italic",
+							"fontWeight": "100",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans_Display/static/NotoSansDisplay_ExtraCondensed-ThinItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans Display ExtraCondensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "100",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans_Display/static/NotoSansDisplay_ExtraCondensed-Thin.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans Display ExtraCondensed\"",
+							"fontStyle": "italic",
+							"fontWeight": "200",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans_Display/static/NotoSansDisplay_ExtraCondensed-ExtraLightItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans Display ExtraCondensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "200",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans_Display/static/NotoSansDisplay_ExtraCondensed-ExtraLight.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans Display ExtraCondensed\"",
+							"fontStyle": "italic",
+							"fontWeight": "600",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans_Display/static/NotoSansDisplay_ExtraCondensed-SemiBoldItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans Display ExtraCondensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "600",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans_Display/static/NotoSansDisplay_ExtraCondensed-SemiBold.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans Display ExtraCondensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans_Display/static/NotoSansDisplay_ExtraCondensed-Regular.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans Display ExtraCondensed\"",
+							"fontStyle": "italic",
+							"fontWeight": "500",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans_Display/static/NotoSansDisplay_ExtraCondensed-MediumItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans Display ExtraCondensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "500",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans_Display/static/NotoSansDisplay_ExtraCondensed-Medium.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans Display ExtraCondensed\"",
+							"fontStyle": "italic",
+							"fontWeight": "300",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans_Display/static/NotoSansDisplay_ExtraCondensed-LightItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans Display ExtraCondensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "300",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans_Display/static/NotoSansDisplay_ExtraCondensed-Light.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans Display ExtraCondensed\"",
+							"fontStyle": "italic",
+							"fontWeight": "400",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans_Display/static/NotoSansDisplay_ExtraCondensed-Italic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans Display ExtraCondensed\"",
+							"fontStyle": "italic",
+							"fontWeight": "800",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans_Display/static/NotoSansDisplay_ExtraCondensed-ExtraBoldItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans Display ExtraCondensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "800",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans_Display/static/NotoSansDisplay_ExtraCondensed-ExtraBold.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans Display ExtraCondensed\"",
+							"fontStyle": "italic",
+							"fontWeight": "700",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans_Display/static/NotoSansDisplay_ExtraCondensed-BoldItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans Display ExtraCondensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans_Display/static/NotoSansDisplay_ExtraCondensed-Bold.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans Display ExtraCondensed\"",
+							"fontStyle": "italic",
+							"fontWeight": "900",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans_Display/static/NotoSansDisplay_ExtraCondensed-BlackItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans Display ExtraCondensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "900",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans_Display/static/NotoSansDisplay_ExtraCondensed-Black.ttf"
+							]
+						}
+					],
+					"fontFamily": "\"Noto Sans Display ExtraCondensed\"",
+					"name": "Noto Sans Display ExtraCondensed",
+					"slug": "noto-sans-display-extracondensed"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "\"Noto Sans Display Condensed\"",
+							"fontStyle": "italic",
+							"fontWeight": "100",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans_Display/static/NotoSansDisplay_Condensed-ThinItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans Display Condensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "100",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans_Display/static/NotoSansDisplay_Condensed-Thin.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans Display Condensed\"",
+							"fontStyle": "italic",
+							"fontWeight": "200",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans_Display/static/NotoSansDisplay_Condensed-ExtraLightItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans Display Condensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "200",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans_Display/static/NotoSansDisplay_Condensed-ExtraLight.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans Display Condensed\"",
+							"fontStyle": "italic",
+							"fontWeight": "600",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans_Display/static/NotoSansDisplay_Condensed-SemiBoldItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans Display Condensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "600",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans_Display/static/NotoSansDisplay_Condensed-SemiBold.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans Display Condensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans_Display/static/NotoSansDisplay_Condensed-Regular.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans Display Condensed\"",
+							"fontStyle": "italic",
+							"fontWeight": "500",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans_Display/static/NotoSansDisplay_Condensed-MediumItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans Display Condensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "500",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans_Display/static/NotoSansDisplay_Condensed-Medium.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans Display Condensed\"",
+							"fontStyle": "italic",
+							"fontWeight": "300",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans_Display/static/NotoSansDisplay_Condensed-LightItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans Display Condensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "300",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans_Display/static/NotoSansDisplay_Condensed-Light.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans Display Condensed\"",
+							"fontStyle": "italic",
+							"fontWeight": "400",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans_Display/static/NotoSansDisplay_Condensed-Italic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans Display Condensed\"",
+							"fontStyle": "italic",
+							"fontWeight": "800",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans_Display/static/NotoSansDisplay_Condensed-ExtraBoldItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans Display Condensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "800",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans_Display/static/NotoSansDisplay_Condensed-ExtraBold.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans Display Condensed\"",
+							"fontStyle": "italic",
+							"fontWeight": "700",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans_Display/static/NotoSansDisplay_Condensed-BoldItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans Display Condensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans_Display/static/NotoSansDisplay_Condensed-Bold.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans Display Condensed\"",
+							"fontStyle": "italic",
+							"fontWeight": "900",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans_Display/static/NotoSansDisplay_Condensed-BlackItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans Display Condensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "900",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans_Display/static/NotoSansDisplay_Condensed-Black.ttf"
+							]
+						}
+					],
+					"fontFamily": "\"Noto Sans Display Condensed\"",
+					"name": "Noto Sans Display Condensed",
+					"slug": "noto-sans-display-condensed"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "\"Noto Sans Mono SemiCondensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "100",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans_Mono/static/NotoSansMono_SemiCondensed-Thin.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans Mono SemiCondensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "200",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans_Mono/static/NotoSansMono_SemiCondensed-ExtraLight.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans Mono SemiCondensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "600",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans_Mono/static/NotoSansMono_SemiCondensed-SemiBold.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans Mono SemiCondensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans_Mono/static/NotoSansMono_SemiCondensed-Regular.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans Mono SemiCondensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "500",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans_Mono/static/NotoSansMono_SemiCondensed-Medium.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans Mono SemiCondensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "300",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans_Mono/static/NotoSansMono_SemiCondensed-Light.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans Mono SemiCondensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "800",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans_Mono/static/NotoSansMono_SemiCondensed-ExtraBold.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans Mono SemiCondensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans_Mono/static/NotoSansMono_SemiCondensed-Bold.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans Mono SemiCondensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "900",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans_Mono/static/NotoSansMono_SemiCondensed-Black.ttf"
+							]
+						}
+					],
+					"fontFamily": "\"Noto Sans Mono SemiCondensed\"",
+					"name": "Noto Sans Mono SemiCondensed",
+					"slug": "noto-sans-mono-semicondensed"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "\"Noto Sans Mono ExtraCondensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "100",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans_Mono/static/NotoSansMono_ExtraCondensed-Thin.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans Mono ExtraCondensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "200",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans_Mono/static/NotoSansMono_ExtraCondensed-ExtraLight.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans Mono ExtraCondensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "600",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans_Mono/static/NotoSansMono_ExtraCondensed-SemiBold.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans Mono ExtraCondensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans_Mono/static/NotoSansMono_ExtraCondensed-Regular.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans Mono ExtraCondensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "500",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans_Mono/static/NotoSansMono_ExtraCondensed-Medium.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans Mono ExtraCondensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "300",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans_Mono/static/NotoSansMono_ExtraCondensed-Light.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans Mono ExtraCondensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "800",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans_Mono/static/NotoSansMono_ExtraCondensed-ExtraBold.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans Mono ExtraCondensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans_Mono/static/NotoSansMono_ExtraCondensed-Bold.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans Mono ExtraCondensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "900",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans_Mono/static/NotoSansMono_ExtraCondensed-Black.ttf"
+							]
+						}
+					],
+					"fontFamily": "\"Noto Sans Mono ExtraCondensed\"",
+					"name": "Noto Sans Mono ExtraCondensed",
+					"slug": "noto-sans-mono-extracondensed"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "\"Noto Sans Mono Condensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "100",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans_Mono/static/NotoSansMono_Condensed-Thin.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans Mono Condensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "200",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans_Mono/static/NotoSansMono_Condensed-ExtraLight.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans Mono Condensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "600",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans_Mono/static/NotoSansMono_Condensed-SemiBold.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans Mono Condensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans_Mono/static/NotoSansMono_Condensed-Regular.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans Mono Condensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "500",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans_Mono/static/NotoSansMono_Condensed-Medium.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans Mono Condensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "300",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans_Mono/static/NotoSansMono_Condensed-Light.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans Mono Condensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "800",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans_Mono/static/NotoSansMono_Condensed-ExtraBold.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans Mono Condensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans_Mono/static/NotoSansMono_Condensed-Bold.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans Mono Condensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "900",
+                            "src": [
+								"file:./assets/fonts/Noto_Sans_Mono/static/NotoSansMono_Condensed-Black.ttf"
+							]
+						}
+					],
+					"fontFamily": "\"Noto Sans Mono Condensed\"",
+					"name": "Noto Sans Mono Condensed",
+					"slug": "noto-sans-mono-condensed"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "\"Noto Serif SemiCondensed\"",
+							"fontStyle": "italic",
+							"fontWeight": "100",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif/static/NotoSerif_SemiCondensed-ThinItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif SemiCondensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "100",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif/static/NotoSerif_SemiCondensed-Thin.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif SemiCondensed\"",
+							"fontStyle": "italic",
+							"fontWeight": "200",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif/static/NotoSerif_SemiCondensed-ExtraLightItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif SemiCondensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "200",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif/static/NotoSerif_SemiCondensed-ExtraLight.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif SemiCondensed\"",
+							"fontStyle": "italic",
+							"fontWeight": "600",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif/static/NotoSerif_SemiCondensed-SemiBoldItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif SemiCondensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "600",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif/static/NotoSerif_SemiCondensed-SemiBold.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif SemiCondensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif/static/NotoSerif_SemiCondensed-Regular.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif SemiCondensed\"",
+							"fontStyle": "italic",
+							"fontWeight": "500",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif/static/NotoSerif_SemiCondensed-MediumItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif SemiCondensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "500",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif/static/NotoSerif_SemiCondensed-Medium.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif SemiCondensed\"",
+							"fontStyle": "italic",
+							"fontWeight": "300",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif/static/NotoSerif_SemiCondensed-LightItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif SemiCondensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "300",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif/static/NotoSerif_SemiCondensed-Light.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif SemiCondensed\"",
+							"fontStyle": "italic",
+							"fontWeight": "400",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif/static/NotoSerif_SemiCondensed-Italic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif SemiCondensed\"",
+							"fontStyle": "italic",
+							"fontWeight": "800",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif/static/NotoSerif_SemiCondensed-ExtraBoldItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif SemiCondensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "800",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif/static/NotoSerif_SemiCondensed-ExtraBold.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif SemiCondensed\"",
+							"fontStyle": "italic",
+							"fontWeight": "700",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif/static/NotoSerif_SemiCondensed-BoldItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif SemiCondensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif/static/NotoSerif_SemiCondensed-Bold.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif SemiCondensed\"",
+							"fontStyle": "italic",
+							"fontWeight": "900",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif/static/NotoSerif_SemiCondensed-BlackItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif SemiCondensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "900",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif/static/NotoSerif_SemiCondensed-Black.ttf"
+							]
+						}
+					],
+					"fontFamily": "\"Noto Serif SemiCondensed\"",
+					"name": "Noto Serif SemiCondensed",
+					"slug": "noto-serif-semicondensed"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "\"Noto Serif ExtraCondensed\"",
+							"fontStyle": "italic",
+							"fontWeight": "100",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif/static/NotoSerif_ExtraCondensed-ThinItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif ExtraCondensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "100",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif/static/NotoSerif_ExtraCondensed-Thin.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif ExtraCondensed\"",
+							"fontStyle": "italic",
+							"fontWeight": "200",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif/static/NotoSerif_ExtraCondensed-ExtraLightItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif ExtraCondensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "200",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif/static/NotoSerif_ExtraCondensed-ExtraLight.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif ExtraCondensed\"",
+							"fontStyle": "italic",
+							"fontWeight": "600",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif/static/NotoSerif_ExtraCondensed-SemiBoldItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif ExtraCondensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "600",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif/static/NotoSerif_ExtraCondensed-SemiBold.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif ExtraCondensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif/static/NotoSerif_ExtraCondensed-Regular.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif ExtraCondensed\"",
+							"fontStyle": "italic",
+							"fontWeight": "500",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif/static/NotoSerif_ExtraCondensed-MediumItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif ExtraCondensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "500",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif/static/NotoSerif_ExtraCondensed-Medium.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif ExtraCondensed\"",
+							"fontStyle": "italic",
+							"fontWeight": "300",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif/static/NotoSerif_ExtraCondensed-LightItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif ExtraCondensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "300",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif/static/NotoSerif_ExtraCondensed-Light.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif ExtraCondensed\"",
+							"fontStyle": "italic",
+							"fontWeight": "400",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif/static/NotoSerif_ExtraCondensed-Italic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif ExtraCondensed\"",
+							"fontStyle": "italic",
+							"fontWeight": "800",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif/static/NotoSerif_ExtraCondensed-ExtraBoldItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif ExtraCondensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "800",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif/static/NotoSerif_ExtraCondensed-ExtraBold.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif ExtraCondensed\"",
+							"fontStyle": "italic",
+							"fontWeight": "700",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif/static/NotoSerif_ExtraCondensed-BoldItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif ExtraCondensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif/static/NotoSerif_ExtraCondensed-Bold.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif ExtraCondensed\"",
+							"fontStyle": "italic",
+							"fontWeight": "900",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif/static/NotoSerif_ExtraCondensed-BlackItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif ExtraCondensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "900",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif/static/NotoSerif_ExtraCondensed-Black.ttf"
+							]
+						}
+					],
+					"fontFamily": "\"Noto Serif ExtraCondensed\"",
+					"name": "Noto Serif ExtraCondensed",
+					"slug": "noto-serif-extracondensed"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "\"Noto Serif Condensed\"",
+							"fontStyle": "italic",
+							"fontWeight": "100",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif/static/NotoSerif_Condensed-ThinItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif Condensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "100",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif/static/NotoSerif_Condensed-Thin.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif Condensed\"",
+							"fontStyle": "italic",
+							"fontWeight": "200",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif/static/NotoSerif_Condensed-ExtraLightItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif Condensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "200",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif/static/NotoSerif_Condensed-ExtraLight.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif Condensed\"",
+							"fontStyle": "italic",
+							"fontWeight": "600",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif/static/NotoSerif_Condensed-SemiBoldItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif Condensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "600",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif/static/NotoSerif_Condensed-SemiBold.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif Condensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif/static/NotoSerif_Condensed-Regular.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif Condensed\"",
+							"fontStyle": "italic",
+							"fontWeight": "500",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif/static/NotoSerif_Condensed-MediumItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif Condensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "500",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif/static/NotoSerif_Condensed-Medium.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif Condensed\"",
+							"fontStyle": "italic",
+							"fontWeight": "300",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif/static/NotoSerif_Condensed-LightItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif Condensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "300",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif/static/NotoSerif_Condensed-Light.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif Condensed\"",
+							"fontStyle": "italic",
+							"fontWeight": "400",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif/static/NotoSerif_Condensed-Italic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif Condensed\"",
+							"fontStyle": "italic",
+							"fontWeight": "800",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif/static/NotoSerif_Condensed-ExtraBoldItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif Condensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "800",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif/static/NotoSerif_Condensed-ExtraBold.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif Condensed\"",
+							"fontStyle": "italic",
+							"fontWeight": "700",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif/static/NotoSerif_Condensed-BoldItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif Condensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif/static/NotoSerif_Condensed-Bold.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif Condensed\"",
+							"fontStyle": "italic",
+							"fontWeight": "900",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif/static/NotoSerif_Condensed-BlackItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif Condensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "900",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif/static/NotoSerif_Condensed-Black.ttf"
+							]
+						}
+					],
+					"fontFamily": "\"Noto Serif Condensed\"",
+					"name": "Noto Serif Condensed",
+					"slug": "noto-serif-condensed"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "\"Noto Serif Display\"",
+							"fontStyle": "italic",
+							"fontWeight": "100",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif/static/NotoSerifDisplay-ThinItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif Display\"",
+							"fontStyle": "normal",
+							"fontWeight": "100",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif/static/NotoSerifDisplay-Thin.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif Display\"",
+							"fontStyle": "italic",
+							"fontWeight": "200",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif/static/NotoSerifDisplay-ExtraLightItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif Display\"",
+							"fontStyle": "normal",
+							"fontWeight": "200",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif/static/NotoSerifDisplay-ExtraLight.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif Display\"",
+							"fontStyle": "italic",
+							"fontWeight": "600",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif/static/NotoSerifDisplay-SemiBoldItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif Display\"",
+							"fontStyle": "normal",
+							"fontWeight": "600",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif/static/NotoSerifDisplay-SemiBold.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif Display\"",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif/static/NotoSerifDisplay-Regular.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif Display\"",
+							"fontStyle": "italic",
+							"fontWeight": "500",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif/static/NotoSerifDisplay-MediumItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif Display\"",
+							"fontStyle": "normal",
+							"fontWeight": "500",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif/static/NotoSerifDisplay-Medium.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif Display\"",
+							"fontStyle": "italic",
+							"fontWeight": "300",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif/static/NotoSerifDisplay-LightItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif Display\"",
+							"fontStyle": "normal",
+							"fontWeight": "300",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif/static/NotoSerifDisplay-Light.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif Display\"",
+							"fontStyle": "italic",
+							"fontWeight": "400",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif/static/NotoSerifDisplay-Italic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif Display\"",
+							"fontStyle": "italic",
+							"fontWeight": "800",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif/static/NotoSerifDisplay-ExtraBoldItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif Display\"",
+							"fontStyle": "normal",
+							"fontWeight": "800",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif/static/NotoSerifDisplay-ExtraBold.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif Display\"",
+							"fontStyle": "italic",
+							"fontWeight": "700",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif/static/NotoSerifDisplay-BoldItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif Display\"",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif/static/NotoSerifDisplay-Bold.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif Display\"",
+							"fontStyle": "italic",
+							"fontWeight": "900",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif/static/NotoSerifDisplay-BlackItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif Display\"",
+							"fontStyle": "normal",
+							"fontWeight": "900",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif/static/NotoSerifDisplay-Black.ttf"
+							]
+						}
+					],
+					"fontFamily": "\"Noto Serif Display\"",
+					"name": "Noto Serif Display",
+					"slug": "noto-serif-display"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "\"Noto Serif Display SemiCondensed\"",
+							"fontStyle": "italic",
+							"fontWeight": "100",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif_Display/static/NotoSerifDisplay_SemiCondensed-ThinItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif Display SemiCondensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "100",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif_Display/static/NotoSerifDisplay_SemiCondensed-Thin.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif Display SemiCondensed\"",
+							"fontStyle": "italic",
+							"fontWeight": "200",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif_Display/static/NotoSerifDisplay_SemiCondensed-ExtraLightItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif Display SemiCondensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "200",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif_Display/static/NotoSerifDisplay_SemiCondensed-ExtraLight.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif Display SemiCondensed\"",
+							"fontStyle": "italic",
+							"fontWeight": "600",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif_Display/static/NotoSerifDisplay_SemiCondensed-SemiBoldItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif Display SemiCondensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "600",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif_Display/static/NotoSerifDisplay_SemiCondensed-SemiBold.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif Display SemiCondensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif_Display/static/NotoSerifDisplay_SemiCondensed-Regular.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif Display SemiCondensed\"",
+							"fontStyle": "italic",
+							"fontWeight": "500",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif_Display/static/NotoSerifDisplay_SemiCondensed-MediumItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif Display SemiCondensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "500",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif_Display/static/NotoSerifDisplay_SemiCondensed-Medium.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif Display SemiCondensed\"",
+							"fontStyle": "italic",
+							"fontWeight": "300",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif_Display/static/NotoSerifDisplay_SemiCondensed-LightItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif Display SemiCondensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "300",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif_Display/static/NotoSerifDisplay_SemiCondensed-Light.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif Display SemiCondensed\"",
+							"fontStyle": "italic",
+							"fontWeight": "400",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif_Display/static/NotoSerifDisplay_SemiCondensed-Italic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif Display SemiCondensed\"",
+							"fontStyle": "italic",
+							"fontWeight": "800",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif_Display/static/NotoSerifDisplay_SemiCondensed-ExtraBoldItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif Display SemiCondensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "800",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif_Display/static/NotoSerifDisplay_SemiCondensed-ExtraBold.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif Display SemiCondensed\"",
+							"fontStyle": "italic",
+							"fontWeight": "700",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif_Display/static/NotoSerifDisplay_SemiCondensed-BoldItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif Display SemiCondensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif_Display/static/NotoSerifDisplay_SemiCondensed-Bold.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif Display SemiCondensed\"",
+							"fontStyle": "italic",
+							"fontWeight": "900",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif_Display/static/NotoSerifDisplay_SemiCondensed-BlackItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif Display SemiCondensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "900",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif_Display/static/NotoSerifDisplay_SemiCondensed-Black.ttf"
+							]
+						}
+					],
+					"fontFamily": "\"Noto Serif Display SemiCondensed\"",
+					"name": "Noto Serif Display SemiCondensed",
+					"slug": "noto-serif-display-semicondensed"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "\"Noto Serif Display ExtraCondensed\"",
+							"fontStyle": "italic",
+							"fontWeight": "100",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif_Display/static/NotoSerifDisplay_ExtraCondensed-ThinItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif Display ExtraCondensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "100",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif_Display/static/NotoSerifDisplay_ExtraCondensed-Thin.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif Display ExtraCondensed\"",
+							"fontStyle": "italic",
+							"fontWeight": "200",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif_Display/static/NotoSerifDisplay_ExtraCondensed-ExtraLightItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif Display ExtraCondensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "200",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif_Display/static/NotoSerifDisplay_ExtraCondensed-ExtraLight.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif Display ExtraCondensed\"",
+							"fontStyle": "italic",
+							"fontWeight": "600",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif_Display/static/NotoSerifDisplay_ExtraCondensed-SemiBoldItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif Display ExtraCondensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "600",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif_Display/static/NotoSerifDisplay_ExtraCondensed-SemiBold.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif Display ExtraCondensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif_Display/static/NotoSerifDisplay_ExtraCondensed-Regular.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif Display ExtraCondensed\"",
+							"fontStyle": "italic",
+							"fontWeight": "500",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif_Display/static/NotoSerifDisplay_ExtraCondensed-MediumItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif Display ExtraCondensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "500",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif_Display/static/NotoSerifDisplay_ExtraCondensed-Medium.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif Display ExtraCondensed\"",
+							"fontStyle": "italic",
+							"fontWeight": "300",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif_Display/static/NotoSerifDisplay_ExtraCondensed-LightItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif Display ExtraCondensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "300",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif_Display/static/NotoSerifDisplay_ExtraCondensed-Light.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif Display ExtraCondensed\"",
+							"fontStyle": "italic",
+							"fontWeight": "400",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif_Display/static/NotoSerifDisplay_ExtraCondensed-Italic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif Display ExtraCondensed\"",
+							"fontStyle": "italic",
+							"fontWeight": "800",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif_Display/static/NotoSerifDisplay_ExtraCondensed-ExtraBoldItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif Display ExtraCondensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "800",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif_Display/static/NotoSerifDisplay_ExtraCondensed-ExtraBold.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif Display ExtraCondensed\"",
+							"fontStyle": "italic",
+							"fontWeight": "700",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif_Display/static/NotoSerifDisplay_ExtraCondensed-BoldItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif Display ExtraCondensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif_Display/static/NotoSerifDisplay_ExtraCondensed-Bold.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif Display ExtraCondensed\"",
+							"fontStyle": "italic",
+							"fontWeight": "900",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif_Display/static/NotoSerifDisplay_ExtraCondensed-BlackItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif Display ExtraCondensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "900",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif_Display/static/NotoSerifDisplay_ExtraCondensed-Black.ttf"
+							]
+						}
+					],
+					"fontFamily": "\"Noto Serif Display ExtraCondensed\"",
+					"name": "Noto Serif Display ExtraCondensed",
+					"slug": "noto-serif-display-extracondensed"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "\"Noto Serif Display Condensed\"",
+							"fontStyle": "italic",
+							"fontWeight": "100",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif_Display/static/NotoSerifDisplay_Condensed-ThinItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif Display Condensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "100",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif_Display/static/NotoSerifDisplay_Condensed-Thin.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif Display Condensed\"",
+							"fontStyle": "italic",
+							"fontWeight": "200",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif_Display/static/NotoSerifDisplay_Condensed-ExtraLightItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif Display Condensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "200",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif_Display/static/NotoSerifDisplay_Condensed-ExtraLight.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif Display Condensed\"",
+							"fontStyle": "italic",
+							"fontWeight": "600",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif_Display/static/NotoSerifDisplay_Condensed-SemiBoldItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif Display Condensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "600",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif_Display/static/NotoSerifDisplay_Condensed-SemiBold.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif Display Condensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif_Display/static/NotoSerifDisplay_Condensed-Regular.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif Display Condensed\"",
+							"fontStyle": "italic",
+							"fontWeight": "500",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif_Display/static/NotoSerifDisplay_Condensed-MediumItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif Display Condensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "500",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif_Display/static/NotoSerifDisplay_Condensed-Medium.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif Display Condensed\"",
+							"fontStyle": "italic",
+							"fontWeight": "300",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif_Display/static/NotoSerifDisplay_Condensed-LightItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif Display Condensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "300",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif_Display/static/NotoSerifDisplay_Condensed-Light.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif Display Condensed\"",
+							"fontStyle": "italic",
+							"fontWeight": "400",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif_Display/static/NotoSerifDisplay_Condensed-Italic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif Display Condensed\"",
+							"fontStyle": "italic",
+							"fontWeight": "800",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif_Display/static/NotoSerifDisplay_Condensed-ExtraBoldItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif Display Condensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "800",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif_Display/static/NotoSerifDisplay_Condensed-ExtraBold.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif Display Condensed\"",
+							"fontStyle": "italic",
+							"fontWeight": "700",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif_Display/static/NotoSerifDisplay_Condensed-BoldItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif Display Condensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif_Display/static/NotoSerifDisplay_Condensed-Bold.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif Display Condensed\"",
+							"fontStyle": "italic",
+							"fontWeight": "900",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif_Display/static/NotoSerifDisplay_Condensed-BlackItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Serif Display Condensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "900",
+                            "src": [
+								"file:./assets/fonts/Noto_Serif_Display/static/NotoSerifDisplay_Condensed-Black.ttf"
+							]
+						}
+					],
+					"fontFamily": "\"Noto Serif Display Condensed\"",
+					"name": "Noto Serif Display Condensed",
+					"slug": "noto-serif-display-condensed"
+				}
+			],
+			"fontSizes": [
+				{
+					"name": "tiny",
+					"size": "12px",
+					"slug": "tiny"
+				},
+				{
+					"name": "small",
+					"size": "16px",
+					"slug": "small"
+				},
+				{
+					"name": "regular",
+					"size": "20px",
+					"slug": "regular"
+				},
+				{
+					"name": "medium",
+					"size": "24px",
+					"slug": "medium"
+				},
+				{
+					"name": "large",
+					"size": "28px",
+					"slug": "large"
+				},
+				{
+					"name": "big",
+					"size": "32px",
+					"slug": "big"
+				},
+				{
+					"name": "huge",
+					"size": "36px",
+					"slug": "huge"
+				}
+			],
+			"fontStyle": true,
+			"fontWeight": true,
+			"letterSpacing": true,
+			"lineHeight": true,
+			"textColumns": true,
+			"textDecoration": true,
+			"textTransform": true,
+			"writingMode": true
+		},
+		"useRootPaddingAwareAlignments": true
+	},
+	"styles": {
+		"blocks": [],
+		"color": {
+			"background": "var(--wp--preset--color--color-1)",
+			"text": "var(--wp--preset--color--color-90)"
+		},
+		"elements": {
+			"h1": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--big)"
+				}
+			},
+			"h2": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--large)"
+				}
+			},
+			"h3": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--medium)"
+				}
+			},
+			"h4": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--regular)"
+				}
+			},
+			"h5": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--small)"
+				}
+			},
+			"h6": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--tiny)"
+				}
+			}
+		},
+		"spacing": {
+			"blockGap": "var(--wp--preset--spacing--none)",
+			"padding": {
+				"bottom": "0",
+				"left": "0",
+				"right": "0",
+				"top": "0"
+			}
+		},
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--noto-sans)",
+			"fontSize": "var(--wp--preset--font-size--small)",
+			"lineHeight": 1.5
+		}
+	},
+	"templateParts": [
+		{
+			"area": "header",
+			"name": "header",
+			"title": "header"
+		},
+		{
+			"area": "footer",
+			"name": "footer",
+			"title": "footer"
+		}
+	],
+	"version": 3
 }
