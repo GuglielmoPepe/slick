@@ -1,8 +1,8 @@
-Slick is an experimental simple, lovable and complete starter theme.
+Slick is an ~~experimental~~ simple, lovable and complete starter theme.
 
 ## Description
 
-Slick is a simple, lovable and complete starter theme. It is built to leverage the full site editing functionality and developed for flexibility. Slick comes with two only pattern and full page designs to help speed up the site building process, is fully compatible with the site editor, and takes advantage of new design tools introduced in WordPress 6.4.
+Slick is a simple, lovable and complete starter theme. It is built to leverage the full site editing functionality and developed for flexibility. Slick comes with two only pattern and full page designs to help speed up the site building process, is fully compatible with the site editor, and takes advantage of new design tools introduced in WordPress 6.7.
 
 
 ## Installation
@@ -16,11 +16,8 @@ Slick is a simple, lovable and complete starter theme. It is built to leverage t
 ## Roadmap
 
 * Add amazing color palette
-* Add font families
 * Add theme variations
-* Add image placeholders
 * Add other templates
-* Add other patterns
 
 
 ## Frequently Asked Questions
