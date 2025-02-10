@@ -156,6 +156,8 @@ Slick WordPress Theme, (C) 2021 Guglielmo Pepe. License: GPL v2 or later.
 License: GPLv2 or later. License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 
+This theme bundles the following third-party resources:
+
 === Fonts ===
 
 Noto Sans Font
