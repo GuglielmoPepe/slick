@@ -8,11 +8,6 @@ jobs:
     name: New tag
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@main
-    - name: Build # Remove or modify this step as needed
-      run: |
-        npm install
-        npm run build
     - name: WordPress Theme Deploy
       uses: Codeinwp/action-wordpress-theme-deploy@primary
       env:
