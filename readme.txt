@@ -1,10 +1,10 @@
 === Slick ===
 Contributors: gpepe
 Tags: full-site-editing, blog
-Requires at least: 6.7
-Tested up to: 6.7.1
+Requires at least: 6.8
+Tested up to: 6.8.2
 Requires PHP: 7.4
-Stable tag: 2.0.0
+Stable tag: 2.1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -44,8 +44,40 @@ Absolutely! Please, [submit your idea](https://github.com/GuglielmoPepe/slick/is
 
 = Unreleased =
 
-
 * Change list style position for archive block
+
+
+= 2.1.2 =
+
+* Add copyright notices in readme.txt
+* Fix readme.txt
+* Fix style.css
+
+
+= 2.1.1 =
+
+* Remove Lato font family asset
+* Remove Montserrat font family asset
+* Remove Open Sans font family asset
+* Remove Oswald font family asset
+* Remove Poppins font family asset
+* Remove Raleway font family asset
+* Remove Roboto font family asset
+
+
+= 2.1.0 =
+
+* Add Lato font family asset
+* Add Montserrat font family asset
+* Add Open Sans font family asset
+* Add Oswald font family asset
+* Add Poppins font family asset
+* Add Raleway font family asset
+* Add Roboto font family asset
+
+= 2.0.1 =
+
+* Add files on control of version
 
 
 = 2.0.0 =
@@ -148,4 +180,34 @@ GNU General Public License for more details.
 
 
 Slick WordPress Theme, (C) 2021 Guglielmo Pepe. License: GPL v2 or later.
+License: GPLv2 or later. License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
+
+This theme bundles the following third-party resources:
+
+=== Fonts ===
+
+Noto Sans Font
+Copyright (c) 2022, The Noto Project Authors
+License: SIL Open Font License, 1.1, https://opensource.org/licenses/OFL-1.1
+Source: https://fonts.google.com/noto/specimen/Noto+Sans
+
+Noto Sans Display Font
+Copyright (c) 2012, Google Inc
+License: SIL Open Font License, 1.1, https://opensource.org/licenses/OFL-1.1
+Source: https://fonts.google.com/noto/specimen/Noto+Sans+Display
+
+Noto Sans Mono Font
+Copyright (c) 2022, The Noto Project Authors
+License: SIL Open Font License, 1.1, https://opensource.org/licenses/OFL-1.1
+Source: https://fonts.google.com/noto/specimen/Noto+Sans+Mono
+
+Noto Serif Font
+Copyright (c) 2022, The Noto Project Authors
+License: SIL Open Font License, 1.1, https://opensource.org/licenses/OFL-1.1
+Source: https://fonts.google.com/noto/specimen/Noto+Serif
+
+Noto Serif Display Font
+Copyright (c) 2012, Google Inc
+License: SIL Open Font License, 1.1, https://opensource.org/licenses/OFL-1.1
+Source: https://fonts.google.com/noto/specimen/Noto+Serif+Display
