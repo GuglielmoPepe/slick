@@ -1,5 +1,5 @@
 name: Deploy to WordPress.org
-on: workflow_call
+on: workflow_dispatch
 jobs:
   tag:
     name: New tag
