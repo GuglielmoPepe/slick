@@ -1,10 +1,10 @@
 === Slick ===
 Contributors: gpepe
 Tags: full-site-editing, blog
-Requires at least: 6.7
-Tested up to: 6.7
+Requires at least: 6.8
+Tested up to: 6.8.2
 Requires PHP: 7.4
-Stable tag: 2.1.0
+Stable tag: 2.2.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -44,9 +44,42 @@ Absolutely! Please, [submit your idea](https://github.com/GuglielmoPepe/slick/is
 
 = Unreleased =
 
-* Add copyright notices in readme.txt
 * Change list style position for archive block
 
+
+= 2.2.0 =
+
+* Add system font in theme.json
+* Remove Noto font family asset
+
+
+= 2.1.2 =
+
+* Add copyright notices in readme.txt
+* Fix readme.txt
+* Fix style.css
+
+
+= 2.1.1 =
+
+* Remove Lato font family asset
+* Remove Montserrat font family asset
+* Remove Open Sans font family asset
+* Remove Oswald font family asset
+* Remove Poppins font family asset
+* Remove Raleway font family asset
+* Remove Roboto font family asset
+
+
+= 2.1.0 =
+
+* Add Lato font family asset
+* Add Montserrat font family asset
+* Add Open Sans font family asset
+* Add Oswald font family asset
+* Add Poppins font family asset
+* Add Raleway font family asset
+* Add Roboto font family asset
 
 = 2.0.1 =
 
