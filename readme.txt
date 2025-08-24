@@ -4,7 +4,7 @@ Tags: full-site-editing, blog
 Requires at least: 6.8
 Tested up to: 6.8.2
 Requires PHP: 7.4
-Stable tag: 2.1.2
+Stable tag: 2.2.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -45,6 +45,14 @@ Absolutely! Please, [submit your idea](https://github.com/GuglielmoPepe/slick/is
 = Unreleased =
 
 * Change list style position for archive block
+
+
+
+
+= 2.2.0 =
+
+* Add system font in theme.json
+* Remove Noto font family asset
 
 
 = 2.1.2 =
